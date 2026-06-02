@@ -1,0 +1,6 @@
+{
+  "_comment": "Single source of truth for GotSport IDs. Update these each new season (or run `npm run new-season`). See NEW_SEASON.md for how to find them in your GotSport schedule URL.",
+  "eventId": "49370",
+  "teamId": "3800359",
+  "groupId": "435945"
+}

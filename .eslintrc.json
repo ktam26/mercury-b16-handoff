@@ -1,0 +1,10 @@
+{
+  "extends": ["next/core-web-vitals"],
+  "rules": {
+    "no-unused-vars": ["error", { "argsIgnorePattern": "^_" }],
+    "no-console": ["warn", { "allow": ["warn", "error"] }],
+    "react/prop-types": "off",
+    "react/display-name": "off",
+    "@next/next/no-img-element": "off"
+  }
+}

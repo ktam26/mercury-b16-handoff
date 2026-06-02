@@ -1,0 +1,54 @@
+name: Scrape Tournament Data
+
+on:
+  schedule:
+    # Downtown Super Cup - Feb 21-22, 2026
+    # Sat Feb 21 — after 9:40 AM PST games (~11:15 AM PST = 7:15 PM UTC)
+    - cron: '15 19 21 2 *'
+    # Sat Feb 21 — after 12:00 PM PST game (~1:45 PM PST = 9:45 PM UTC)
+    - cron: '45 21 21 2 *'
+    # Sat Feb 21 — after 2:00 PM PST game (~3:45 PM PST = 11:45 PM UTC)
+    - cron: '45 23 21 2 *'
+    # Sun Feb 22 — after 8:50 AM PST games (~10:30 AM PST = 6:30 PM UTC)
+    - cron: '30 18 22 2 *'
+    # Sun Feb 22 — after 12:15 PM PST final (~2:00 PM PST = 10:00 PM UTC)
+    - cron: '0 22 22 2 *'
+  workflow_dispatch:
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run tournament scraper
+        run: npm run scrape:tournament
+
+      - name: Check for changes
+        id: git-check
+        run: |
+          git diff --exit-code data/tournament.json || echo "changes=true" >> $GITHUB_OUTPUT
+
+      - name: Commit and push changes
+        if: steps.git-check.outputs.changes == 'true'
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add data/tournament.json
+          git commit -m "Update tournament data from GotSport
+
+          🤖 Auto-scraped by GitHub Actions"
+          git push

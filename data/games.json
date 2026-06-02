@@ -1,0 +1,1067 @@
+[
+  {
+    "id": "game-009",
+    "date": "2026-01-17",
+    "time": "12:20 PM",
+    "type": "scrimmage",
+    "opponent": "San Jose Rush",
+    "mercuryRecord": "0-0-0",
+    "opponentRecord": "",
+    "opponentGoals": "",
+    "mercuryRecentResults": [],
+    "opponentRecentResults": [],
+    "location": {
+      "name": "Patty O'Malley Sportsfield",
+      "field": "TBD",
+      "address": "5620 Santa Teresa Blvd, San Jose, CA 95123",
+      "googleMapsUrl": "https://maps.app.goo.gl/aM3EAUCHpQjSdmPv9",
+      "embedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3178.5!2d-121.7886!3d37.2463!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808e314a3b8f5f51%3A0x3b6c37a4a502f05c!2sPatty%20O%27Malley%20Sportsfield!5e0!3m2!1sen!2sus!4v1705500000000"
+    },
+    "homeAway": "home",
+    "jersey": "black",
+    "socks": "black",
+    "result": null,
+    "teamLogos": {
+      "home": "/images/logos/mercury-b16.png",
+      "away": "/images/logos/san-jose-rush.png"
+    },
+    "weatherUrl": "https://weather.com/weather/hourbyhour/l/95123:4:US",
+    "gotsportUrl": null,
+    "photoAlbumUrl": null,
+    "videoUrl": null
+  },
+  {
+    "id": "game-010",
+    "date": "2026-02-06",
+    "time": "6:00 PM",
+    "type": "scrimmage",
+    "opponent": "Almaden FC Mercury 16 Blue",
+    "mercuryRecord": "",
+    "opponentRecord": "",
+    "opponentGoals": "",
+    "mercuryRecentResults": [],
+    "opponentRecentResults": [],
+    "location": {
+      "name": "Patty O'Malley Sportsfield",
+      "field": "TBD",
+      "address": "5620 Santa Teresa Blvd, San Jose, CA 95123",
+      "googleMapsUrl": "https://maps.app.goo.gl/aM3EAUCHpQjSdmPv9",
+      "embedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3178.5!2d-121.7886!3d37.2463!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808e314a3b8f5f51%3A0x3b6c37a4a502f05c!2sPatty%20O%27Malley%20Sportsfield!5e0!3m2!1sen!2sus!4v1705500000000"
+    },
+    "homeAway": "home",
+    "jersey": "white",
+    "socks": "white",
+    "result": null,
+    "teamLogos": {
+      "home": "/images/logos/mercury-b16.png",
+      "away": "/images/logos/mercury-b16.png"
+    },
+    "weatherUrl": "https://weather.com/weather/hourbyhour/l/95123:4:US",
+    "gotsportUrl": null,
+    "photoAlbumUrl": null,
+    "videoUrl": null
+  },
+  {
+    "id": "game-011",
+    "date": "2026-03-08",
+    "time": "10:15 AM",
+    "type": "league",
+    "opponent": "Hollister Tremors Hollister Tremors 2016B Team A",
+    "matchNumber": "2285",
+    "mercuryRecord": "4-3-1",
+    "opponentRecord": "1-7-0",
+    "opponentGoals": "",
+    "mercuryRecentResults": [],
+    "opponentRecentResults": [],
+    "location": {
+      "name": "Hollister Tremors (No Dogs on Fields) - Field 4",
+      "field": "",
+      "address": "",
+      "googleMapsUrl": "",
+      "embedUrl": ""
+    },
+    "homeAway": "away",
+    "jersey": "white",
+    "socks": "white",
+    "result": {
+      "us": 8,
+      "them": 1,
+      "goalScorers": [
+        "Own Goal (2)",
+        "Enzo Borelli (2)",
+        "Arthur Yao (1)",
+        "Matías Carrillo (1)",
+        "Kaden Tamura (1)",
+        "Jackson Kammah (1)"
+      ],
+      "assists": [
+        "Kaden Tamura (2)",
+        "Jackson Kammah (1)",
+        "Matías Carrillo (1)"
+      ],
+      "goalkeepers": [
+        {
+          "name": "Kaden Tamura",
+          "half": 1,
+          "goalsAllowed": 0
+        },
+        {
+          "name": "Luca Salomao",
+          "half": 2,
+          "goalsAllowed": 1
+        }
+      ],
+      "timeline": [
+        {
+          "minute": 0,
+          "type": "goal",
+          "team": "mercury",
+          "scorer": "Own Goal"
+        },
+        {
+          "minute": 1,
+          "type": "goal",
+          "team": "mercury",
+          "scorer": "Own Goal"
+        },
+        {
+          "minute": 16,
+          "type": "goal",
+          "team": "mercury",
+          "scorer": "Enzo Borelli",
+          "assist": "Jackson Kammah"
+        },
+        {
+          "minute": 31,
+          "type": "goal",
+          "team": "opponent"
+        },
+        {
+          "minute": 32,
+          "type": "goal",
+          "team": "mercury",
+          "scorer": "Arthur Yao",
+          "assist": "Matías Carrillo"
+        },
+        {
+          "minute": 36,
+          "type": "goal",
+          "team": "mercury",
+          "scorer": "Matías Carrillo",
+          "assist": "Kaden Tamura"
+        },
+        {
+          "minute": 37,
+          "type": "goal",
+          "team": "mercury",
+          "scorer": "Kaden Tamura"
+        },
+        {
+          "minute": 41,
+          "type": "goal",
+          "team": "mercury",
+          "scorer": "Enzo Borelli",
+          "assist": "Kaden Tamura"
+        },
+        {
+          "minute": 47,
+          "type": "goal",
+          "team": "mercury",
+          "scorer": "Jackson Kammah"
+        }
+      ]
+    },
+    "teamLogos": {
+      "home": "/images/logos/hollister-tremors.webp",
+      "away": "/images/logos/mercury-b16.png"
+    },
+    "weatherUrl": null,
+    "gotsportUrl": "https://system.gotsport.com/org_event/events/49370/schedules?team=3800359",
+    "photoAlbumUrl": null,
+    "videoUrl": null
+  },
+  {
+    "id": "game-012",
+    "date": "2026-03-15",
+    "time": "10:40 AM",
+    "type": "league",
+    "opponent": "Monterey Surf Soccer Club Monterey Surf B16 Academy I",
+    "matchNumber": "2296",
+    "mercuryRecord": "4-3-1",
+    "opponentRecord": "5-4-1",
+    "opponentGoals": "",
+    "mercuryRecentResults": [],
+    "opponentRecentResults": [],
+    "location": {
+      "name": "Chartwell School - Chartwell School",
+      "field": "",
+      "address": "",
+      "googleMapsUrl": "",
+      "embedUrl": ""
+    },
+    "homeAway": "away",
+    "jersey": "white",
+    "socks": "white",
+    "result": {
+      "us": 2,
+      "them": 2,
+      "goalScorers": [
+        "Matías Carrillo (1)",
+        "Luca Salomao (1)"
+      ],
+      "assists": [
+        "Luca Salomao (1)"
+      ],
+      "goalkeepers": [
+        {
+          "name": "Neel Vaddadi",
+          "half": 1,
+          "goalsAllowed": 2
+        },
+        {
+          "name": "Gabriel Gomez Quintero",
+          "half": 2,
+          "goalsAllowed": 0
+        }
+      ],
+      "timeline": [
+        {
+          "minute": 6,
+          "type": "goal",
+          "team": "opponent"
+        },
+        {
+          "minute": 9,
+          "type": "goal",
+          "team": "mercury",
+          "scorer": "Matías Carrillo",
+          "assist": "Luca Salomao",
+          "videoTimestamp": 550
+        },
+        {
+          "minute": 17,
+          "type": "goal",
+          "team": "mercury",
+          "scorer": "Luca Salomao",
+          "videoTimestamp": 1022
+        },
+        {
+          "minute": 25,
+          "type": "goal",
+          "team": "opponent"
+        }
+      ]
+    },
+    "teamLogos": {
+      "home": "/images/logos/monterey-surf.png",
+      "away": "/images/logos/mercury-b16.png"
+    },
+    "weatherUrl": null,
+    "gotsportUrl": "https://system.gotsport.com/org_event/events/49370/schedules?team=3800359",
+    "photoAlbumUrl": null,
+    "videoUrl": "https://www.youtube.com/watch?v=AmoI70m8WB8"
+  },
+  {
+    "id": "game-013",
+    "date": "2026-03-21",
+    "time": "3:45 PM",
+    "type": "league",
+    "opponent": "Monterey County Soccer-ECFC Salinas ECFC 16/17B Pre-ECNL-1",
+    "matchNumber": "2301",
+    "mercuryRecord": "4-3-1",
+    "opponentRecord": "8-1-0",
+    "opponentGoals": "",
+    "mercuryRecentResults": [],
+    "opponentRecentResults": [],
+    "location": {
+      "name": "Pioneer High School (PINR) - Pioneer High School 1B",
+      "field": "",
+      "address": "",
+      "googleMapsUrl": "",
+      "embedUrl": ""
+    },
+    "homeAway": "home",
+    "jersey": "black",
+    "socks": "black",
+    "result": {
+      "us": 4,
+      "them": 6,
+      "goalScorers": [
+        "Matías Carrillo (3)",
+        "Arthur Yao (1)"
+      ],
+      "assists": [
+        "Oliver Anderson (2)",
+        "Jackson Kammah (1)",
+        "Sebastian Cooper (1)"
+      ],
+      "goalkeepers": [
+        {
+          "name": "Neel Vaddadi",
+          "half": 1,
+          "goalsAllowed": 2,
+          "saves": 4
+        },
+        {
+          "name": "Neel Vaddadi",
+          "half": 2,
+          "goalsAllowed": 4,
+          "saves": 7
+        }
+      ],
+      "timeline": [
+        {
+          "minute": 5,
+          "type": "goal",
+          "team": "mercury",
+          "scorer": "Matías Carrillo",
+          "assist": "Oliver Anderson",
+          "videoTimestamp": 242
+        },
+        {
+          "minute": 10,
+          "type": "goal",
+          "team": "mercury",
+          "scorer": "Arthur Yao",
+          "assist": "Oliver Anderson",
+          "videoTimestamp": 542
+        },
+        {
+          "minute": 18,
+          "type": "goal",
+          "team": "opponent"
+        },
+        {
+          "minute": 21,
+          "type": "goal",
+          "team": "opponent"
+        },
+        {
+          "minute": 26,
+          "type": "goal",
+          "team": "opponent"
+        },
+        {
+          "minute": 32,
+          "type": "goal",
+          "team": "mercury",
+          "scorer": "Matías Carrillo",
+          "assist": "Jackson Kammah",
+          "videoTimestamp": 1905
+        },
+        {
+          "minute": 37,
+          "type": "goal",
+          "team": "opponent"
+        },
+        {
+          "minute": 39,
+          "type": "goal",
+          "team": "mercury",
+          "scorer": "Matías Carrillo",
+          "assist": "Sebastian Cooper",
+          "videoTimestamp": 2330
+        },
+        {
+          "minute": 47,
+          "type": "goal",
+          "team": "opponent"
+        },
+        {
+          "minute": 53,
+          "type": "goal",
+          "team": "opponent"
+        }
+      ]
+    },
+    "teamLogos": {
+      "home": "/images/logos/mercury-b16.png",
+      "away": "/images/logos/salinas-ecfc.png"
+    },
+    "weatherUrl": null,
+    "gotsportUrl": "https://system.gotsport.com/org_event/events/49370/schedules?team=3800359",
+    "photoAlbumUrl": null,
+    "videoUrl": "https://www.youtube.com/watch?v=OWPK1squ0fQ"
+  },
+  {
+    "id": "game-014",
+    "date": "2026-03-28",
+    "time": "9:00 AM",
+    "type": "league",
+    "opponent": "Pajaro Valley Youth Soccer Club PV United 17B",
+    "matchNumber": "2307",
+    "mercuryRecord": "4-3-1",
+    "opponentRecord": "10-0-0",
+    "opponentGoals": "",
+    "mercuryRecentResults": [],
+    "opponentRecentResults": [],
+    "location": {
+      "name": "Freedom Elementary  - Freedom 7v7",
+      "field": "",
+      "address": "",
+      "googleMapsUrl": "",
+      "embedUrl": ""
+    },
+    "homeAway": "away",
+    "jersey": "white",
+    "socks": "white",
+    "result": {
+      "us": 4,
+      "them": 6,
+      "goalScorers": [
+        "Kaden Tamura (1)",
+        "Matías Carrillo (2)",
+        "Oliver Anderson (1)"
+      ],
+      "assists": [
+        "Roshan Parimi (1)"
+      ],
+      "goalkeepers": [
+        {
+          "name": "Neel Vaddadi",
+          "half": 1,
+          "saves": 1,
+          "goalsAllowed": 4
+        },
+        {
+          "name": "Kaden Tamura",
+          "half": 2,
+          "saves": 6,
+          "goalsAllowed": 2
+        }
+      ],
+      "timeline": [
+        {
+          "minute": 8,
+          "type": "goal",
+          "team": "opponent"
+        },
+        {
+          "minute": 15,
+          "type": "goal",
+          "team": "mercury",
+          "scorer": "Kaden Tamura",
+          "goalType": "FK",
+          "videoTimestamp": 906
+        },
+        {
+          "minute": 16,
+          "type": "goal",
+          "team": "opponent"
+        },
+        {
+          "minute": 18,
+          "type": "goal",
+          "team": "opponent"
+        },
+        {
+          "minute": 19,
+          "type": "goal",
+          "team": "mercury",
+          "scorer": "Matías Carrillo",
+          "videoTimestamp": 1170
+        },
+        {
+          "minute": 22,
+          "type": "goal",
+          "team": "mercury",
+          "scorer": "Matías Carrillo",
+          "assist": "Roshan Parimi",
+          "videoTimestamp": 1363
+        },
+        {
+          "minute": 23,
+          "type": "goal",
+          "team": "opponent"
+        },
+        {
+          "minute": 31,
+          "type": "goal",
+          "team": "opponent"
+        },
+        {
+          "minute": 34,
+          "type": "goal",
+          "team": "mercury",
+          "scorer": "Oliver Anderson",
+          "goalType": "FK",
+          "videoTimestamp": 2089
+        },
+        {
+          "minute": 41,
+          "type": "goal",
+          "team": "opponent"
+        }
+      ]
+    },
+    "teamLogos": {
+      "home": "/images/logos/pv-united.jpg",
+      "away": "/images/logos/mercury-b16.png"
+    },
+    "weatherUrl": null,
+    "gotsportUrl": "https://system.gotsport.com/org_event/events/49370/schedules?team=3800359",
+    "photoAlbumUrl": null,
+    "videoUrl": "https://www.youtube.com/watch?v=k8AqSrjmQCQ"
+  },
+  {
+    "id": "game-015",
+    "date": "2026-04-18",
+    "time": "4:30 PM",
+    "type": "league",
+    "opponent": "Santa Cruz United Football Club 2016B Blue",
+    "matchNumber": "2318",
+    "mercuryRecord": "4-3-1",
+    "opponentRecord": "2-6-0",
+    "opponentGoals": "",
+    "mercuryRecentResults": [],
+    "opponentRecentResults": [],
+    "location": {
+      "name": "Shoreline Middle School - Shoreline Middle 7v7 A",
+      "field": "",
+      "address": "",
+      "googleMapsUrl": "",
+      "embedUrl": ""
+    },
+    "homeAway": "away",
+    "jersey": "white",
+    "socks": "white",
+    "result": {
+      "us": 5,
+      "them": 6,
+      "goalScorers": [
+        "Sebastian Cooper (1)",
+        "Kaden Tamura (1)",
+        "Owen Graziosi (1)",
+        "Nahaliel Jimenez (2)"
+      ],
+      "assists": [
+        "Owen Graziosi (1)",
+        "Kaden Tamura (1)"
+      ],
+      "goalkeepers": [
+        {
+          "name": "Gabriel Gomez Quintero",
+          "half": 1,
+          "goalsAllowed": 2
+        },
+        {
+          "name": "Gabriel Gomez Quintero",
+          "half": 2,
+          "goalsAllowed": 4
+        }
+      ],
+      "timeline": [
+        {
+          "minute": 2,
+          "type": "goal",
+          "team": "opponent"
+        },
+        {
+          "minute": 9,
+          "type": "goal",
+          "team": "mercury",
+          "scorer": "Sebastian Cooper"
+        },
+        {
+          "minute": 14,
+          "type": "goal",
+          "team": "opponent"
+        },
+        {
+          "minute": 15,
+          "type": "goal",
+          "team": "mercury",
+          "scorer": "Kaden Tamura",
+          "assist": "Owen Graziosi"
+        },
+        {
+          "minute": 38,
+          "type": "goal",
+          "team": "opponent"
+        },
+        {
+          "minute": 40,
+          "type": "goal",
+          "team": "opponent"
+        },
+        {
+          "minute": 43,
+          "type": "goal",
+          "team": "mercury",
+          "scorer": "Owen Graziosi"
+        },
+        {
+          "minute": 43,
+          "type": "goal",
+          "team": "mercury",
+          "scorer": "Nahaliel Jimenez"
+        },
+        {
+          "minute": 46,
+          "type": "goal",
+          "team": "mercury",
+          "scorer": "Nahaliel Jimenez",
+          "assist": "Kaden Tamura"
+        },
+        {
+          "minute": 52,
+          "type": "goal",
+          "team": "opponent"
+        },
+        {
+          "minute": 54,
+          "type": "goal",
+          "team": "opponent"
+        }
+      ]
+    },
+    "teamLogos": {
+      "home": "/images/logos/santa-cruz-united.png",
+      "away": "/images/logos/mercury-b16.png"
+    },
+    "weatherUrl": null,
+    "gotsportUrl": "https://system.gotsport.com/org_event/events/49370/schedules?team=3800359",
+    "photoAlbumUrl": null,
+    "videoUrl": null
+  },
+  {
+    "id": "game-016",
+    "date": "2026-04-19",
+    "time": "3:30 PM",
+    "type": "league",
+    "opponent": "Santa Cruz City Soccer Club SANTA CRUZ SHARKS 16 WHITE",
+    "matchNumber": "2319",
+    "mercuryRecord": "4-3-1",
+    "opponentRecord": "3-6-1",
+    "opponentGoals": "",
+    "mercuryRecentResults": [],
+    "opponentRecentResults": [],
+    "location": {
+      "name": "Pioneer High School (PINR) - Pioneer High School 1B",
+      "field": "",
+      "address": "",
+      "googleMapsUrl": "",
+      "embedUrl": ""
+    },
+    "homeAway": "home",
+    "jersey": "black",
+    "socks": "black",
+    "result": {
+      "us": 6,
+      "them": 2,
+      "goalScorers": [
+        "Arthur Yao (4)",
+        "Matías Carrillo (1)",
+        "Kaden Tamura (1)"
+      ],
+      "assists": [
+        "Owen Graziosi (2)",
+        "Sebastian Cooper (1)",
+        "Porter Gray (1)",
+        "Kaden Tamura (1)"
+      ],
+      "goalkeepers": [
+        {
+          "name": "Gabriel Gomez Quintero",
+          "half": 1,
+          "goalsAllowed": 2
+        },
+        {
+          "name": "Gabriel Gomez Quintero",
+          "half": 2,
+          "goalsAllowed": 0
+        }
+      ],
+      "timeline": [
+        {
+          "minute": 6,
+          "type": "goal",
+          "team": "opponent"
+        },
+        {
+          "minute": 11,
+          "type": "goal",
+          "team": "opponent"
+        },
+        {
+          "minute": 17,
+          "type": "goal",
+          "team": "mercury",
+          "scorer": "Arthur Yao",
+          "assist": "Sebastian Cooper",
+          "videoTimestamp": 1029
+        },
+        {
+          "minute": 24,
+          "type": "goal",
+          "team": "mercury",
+          "scorer": "Matías Carrillo",
+          "goalType": "FK",
+          "videoTimestamp": 1410
+        },
+        {
+          "minute": 27,
+          "type": "goal",
+          "team": "mercury",
+          "scorer": "Kaden Tamura",
+          "assist": "Owen Graziosi",
+          "videoTimestamp": 1619
+        },
+        {
+          "minute": 33,
+          "type": "goal",
+          "team": "mercury",
+          "scorer": "Arthur Yao",
+          "assist": "Owen Graziosi",
+          "videoTimestamp": 1977
+        },
+        {
+          "minute": 41,
+          "type": "goal",
+          "team": "mercury",
+          "scorer": "Arthur Yao",
+          "assist": "Porter Gray",
+          "videoTimestamp": 2477
+        },
+        {
+          "minute": 44,
+          "type": "goal",
+          "team": "mercury",
+          "scorer": "Arthur Yao",
+          "assist": "Kaden Tamura",
+          "videoTimestamp": 2645
+        }
+      ]
+    },
+    "teamLogos": {
+      "home": "/images/logos/mercury-b16.png",
+      "away": "/images/logos/sc-sharks.webp"
+    },
+    "weatherUrl": null,
+    "gotsportUrl": "https://system.gotsport.com/org_event/events/49370/schedules?team=3800359",
+    "photoAlbumUrl": null,
+    "videoUrl": "https://www.youtube.com/watch?v=QDYqunEnlwU"
+  },
+  {
+    "id": "game-017",
+    "date": "2026-04-26",
+    "time": "1:00 PM",
+    "type": "league",
+    "opponent": "Hollister Tremors Hollister Tremors",
+    "matchNumber": "2328",
+    "mercuryRecord": "4-3-1",
+    "opponentRecord": "3-5-2",
+    "opponentGoals": "",
+    "mercuryRecentResults": [],
+    "opponentRecentResults": [
+      {
+        "date": "2026-03-08",
+        "opponent": "Almaden FC Almaden FC Mercury B16 Black",
+        "result": "L",
+        "score": "1-8"
+      }
+    ],
+    "location": {
+      "name": "Pioneer High School (PINR) - Pioneer High School 1B",
+      "field": "",
+      "address": "",
+      "googleMapsUrl": "",
+      "embedUrl": ""
+    },
+    "homeAway": "home",
+    "jersey": "black",
+    "socks": "black",
+    "result": {
+      "us": 2,
+      "them": 1,
+      "goalScorers": [
+        "Jackson Kammah (1)",
+        "Roshan Parimi (1)"
+      ],
+      "assists": [
+        "Kaden Tamura (1)"
+      ],
+      "goalkeepers": [
+        {
+          "name": "Arthur Yao",
+          "half": 1,
+          "goalsAllowed": 0,
+          "saves": 4
+        },
+        {
+          "name": "Neel Vaddadi",
+          "half": 2,
+          "goalsAllowed": 1,
+          "saves": 6
+        }
+      ],
+      "timeline": [
+        {
+          "minute": 5,
+          "type": "goal",
+          "team": "mercury",
+          "scorer": "Jackson Kammah",
+          "assist": "Kaden Tamura",
+          "videoTimestamp": 319
+        },
+        {
+          "minute": 46,
+          "type": "goal",
+          "team": "mercury",
+          "scorer": "Roshan Parimi",
+          "videoTimestamp": 2778
+        },
+        {
+          "minute": 52,
+          "type": "goal",
+          "team": "opponent"
+        }
+      ]
+    },
+    "teamLogos": {
+      "home": "/images/logos/mercury-b16.png",
+      "away": "/images/logos/hollister-tremors.webp"
+    },
+    "weatherUrl": null,
+    "gotsportUrl": "https://system.gotsport.com/org_event/events/49370/schedules?team=3800359",
+    "photoAlbumUrl": null,
+    "videoUrl": "https://www.youtube.com/watch?v=9fryRBEhCDo"
+  },
+  {
+    "id": "game-018",
+    "date": "2026-05-03",
+    "time": "1:00 PM",
+    "type": "league",
+    "opponent": "OV Toros FC 2016B Black",
+    "matchNumber": "2335",
+    "mercuryRecord": "4-3-1",
+    "opponentRecord": "3-4-1",
+    "opponentGoals": "",
+    "mercuryRecentResults": [],
+    "opponentRecentResults": [],
+    "location": {
+      "name": "Pioneer High School (PINR) - Pioneer High School 1B",
+      "field": "",
+      "address": "",
+      "googleMapsUrl": "",
+      "embedUrl": ""
+    },
+    "homeAway": "home",
+    "jersey": "black",
+    "socks": "black",
+    "result": {
+      "us": 4,
+      "them": 2,
+      "goalScorers": [
+        "Matías Carrillo (1)",
+        "Constantine Milyakov (1)",
+        "Arthur Yao (1)",
+        "Kaden Tamura (1)"
+      ],
+      "assists": [
+        "Roshan Parimi (1)",
+        "Jackson Kammah (1)",
+        "Arthur Yao (1)"
+      ],
+      "goalkeepers": [
+        {
+          "name": "Neel Vaddadi",
+          "half": 1,
+          "goalsAllowed": 1,
+          "saves": 12
+        },
+        {
+          "name": "Neel Vaddadi",
+          "half": 2,
+          "goalsAllowed": 1,
+          "saves": 13
+        }
+      ],
+      "timeline": [
+        {
+          "minute": 3,
+          "type": "goal",
+          "team": "mercury",
+          "scorer": "Matías Carrillo",
+          "assist": "Roshan Parimi",
+          "videoTimestamp": 285
+        },
+        {
+          "minute": 7,
+          "type": "goal",
+          "team": "mercury",
+          "scorer": "Constantine Milyakov",
+          "videoTimestamp": 548
+        },
+        {
+          "minute": 14,
+          "type": "goal",
+          "team": "mercury",
+          "scorer": "Arthur Yao",
+          "assist": "Jackson Kammah",
+          "videoTimestamp": 946
+        },
+        {
+          "minute": 23,
+          "type": "goal",
+          "team": "opponent"
+        },
+        {
+          "minute": 35,
+          "type": "goal",
+          "team": "mercury",
+          "scorer": "Kaden Tamura",
+          "assist": "Arthur Yao",
+          "videoTimestamp": 1968
+        },
+        {
+          "minute": 57,
+          "type": "goal",
+          "team": "opponent"
+        }
+      ]
+    },
+    "teamLogos": {
+      "home": "/images/logos/mercury-b16.png",
+      "away": "/images/logos/ov-toros.avif"
+    },
+    "weatherUrl": null,
+    "gotsportUrl": "https://system.gotsport.com/org_event/events/49370/schedules?team=3800359",
+    "photoAlbumUrl": null,
+    "videoUrl": "https://www.youtube.com/watch?v=TqqxJXHFEfo"
+  },
+  {
+    "id": "game-020",
+    "date": "2026-05-17",
+    "time": "1:00 PM",
+    "type": "league",
+    "opponent": "Audax Soccer Club Audax 2016B Orange",
+    "matchNumber": "2292",
+    "mercuryRecord": "4-3-1",
+    "opponentRecord": "2-5-1",
+    "opponentGoals": "",
+    "mercuryRecentResults": [],
+    "opponentRecentResults": [],
+    "location": {
+      "name": "Pioneer High School (PINR) - Pioneer High School 1B",
+      "field": "",
+      "address": "",
+      "googleMapsUrl": "",
+      "embedUrl": ""
+    },
+    "homeAway": "home",
+    "jersey": "black",
+    "socks": "black",
+    "result": {
+      "us": 4,
+      "them": 3,
+      "goalScorers": [
+        "Luca Salomao (1)",
+        "Matías Carrillo (1)",
+        "Kaden Tamura (1)",
+        "Roshan Parimi (1)"
+      ],
+      "assists": [
+        "Roshan Parimi (1)",
+        "Kaden Tamura (1)"
+      ],
+      "goalkeepers": [
+        {
+          "name": "Kaden Tamura",
+          "half": 1,
+          "goalsAllowed": 1,
+          "saves": 2
+        },
+        {
+          "name": "Neel Vaddadi",
+          "half": 2,
+          "goalsAllowed": 2,
+          "saves": 8
+        }
+      ],
+      "timeline": [
+        {
+          "minute": 1,
+          "type": "goal",
+          "team": "mercury",
+          "scorer": "Luca Salomao"
+        },
+        {
+          "minute": 11,
+          "type": "goal",
+          "team": "mercury",
+          "scorer": "Matías Carrillo",
+          "assist": "Roshan Parimi"
+        },
+        {
+          "minute": 12,
+          "type": "goal",
+          "team": "opponent"
+        },
+        {
+          "minute": 26,
+          "type": "goal",
+          "team": "opponent"
+        },
+        {
+          "minute": 44,
+          "type": "goal",
+          "team": "mercury",
+          "scorer": "Kaden Tamura"
+        },
+        {
+          "minute": 46,
+          "type": "goal",
+          "team": "mercury",
+          "scorer": "Roshan Parimi",
+          "assist": "Kaden Tamura"
+        },
+        {
+          "minute": 50,
+          "type": "goal",
+          "team": "opponent"
+        }
+      ]
+    },
+    "teamLogos": {
+      "home": "/images/logos/mercury-b16.png",
+      "away": "/images/logos/audax.png"
+    },
+    "weatherUrl": null,
+    "gotsportUrl": "https://system.gotsport.com/org_event/events/49370/schedules?team=3800359",
+    "photoAlbumUrl": null,
+    "videoUrl": null
+  },
+  {
+    "id": "game-019",
+    "date": "2026-05-30",
+    "time": "2:15 PM",
+    "type": "league",
+    "opponent": "Real Salinas Real Salinas 2016B White",
+    "matchNumber": "2309",
+    "mercuryRecord": "4-3-1",
+    "opponentRecord": "3-3-1",
+    "opponentGoals": "",
+    "mercuryRecentResults": [],
+    "opponentRecentResults": [],
+    "location": {
+      "name": "Salinas Reg. Soccer Complex - Field L 7v7",
+      "field": "",
+      "address": "",
+      "googleMapsUrl": "",
+      "embedUrl": ""
+    },
+    "homeAway": "away",
+    "jersey": "white",
+    "socks": "white",
+    "result": null,
+    "teamLogos": {
+      "home": "/images/logos/real-salinas.png",
+      "away": "/images/logos/mercury-b16.png"
+    },
+    "weatherUrl": null,
+    "gotsportUrl": "https://system.gotsport.com/org_event/events/49370/schedules?team=3800359",
+    "photoAlbumUrl": null,
+    "videoUrl": null
+  }
+]

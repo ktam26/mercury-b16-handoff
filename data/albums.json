@@ -1,0 +1,38 @@
+[
+  {
+    "id": "album-004",
+    "title": "Downtown Super Cup - Championship",
+    "date": "Feb 21-22, 2026",
+    "photoCount": 0,
+    "coverImage": "/images/album-004-cover.jpg",
+    "url": "https://shotsbyryanq.pixieset.com/almadenfcmercury16blackvsmaderaunited/",
+    "photographer": "Shots by Ryan Q"
+  },
+  {
+    "id": "album-003",
+    "title": "vs West Valley Soccer Club 16B Red",
+    "date": "Nov 8, 2025",
+    "photoCount": 0,
+    "coverImage": "/images/album-003-cover.webp",
+    "url": "https://shotsbyryanq.pixieset.com/almadenfcmercury16blackvswestvalleysoccerclub16bred/",
+    "photographer": "Shots by Ryan Q"
+  },
+  {
+    "id": "album-002",
+    "title": "vs Cupertino FC Flames 16B",
+    "date": "Sep 20, 2025",
+    "photoCount": 32,
+    "coverImage": "/images/album-002-cover.webp",
+    "url": "https://shotsbyryanq.pixieset.com/almadenfcmercury16blackvscupertinofcflames16b/",
+    "photographer": "Shots by Ryan Q"
+  },
+  {
+    "id": "album-001",
+    "title": "Newark FC Tournament",
+    "date": "Aug 16-17, 2025",
+    "photoCount": 45,
+    "coverImage": "/images/album-001-cover.webp",
+    "url": "https://shotsbyryanq.pixieset.com/almadenfcmercury16blacknewarkfc16b/",
+    "photographer": "Shots by Ryan Q"
+  }
+]

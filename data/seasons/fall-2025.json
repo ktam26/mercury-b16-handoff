@@ -1,0 +1,557 @@
+[
+  {
+    "id": "game-001",
+    "date": "2025-09-07",
+    "time": "2:15 PM",
+    "opponent": "Santa Clara Rush 2016B Cougars - Blue",
+    "mercuryRecord": "0-0-0",
+    "opponentRecord": "3-5-0",
+    "opponentGoals": "",
+    "mercuryRecentResults": [],
+    "opponentRecentResults": [
+      {
+        "date": "2025-08-31",
+        "opponent": "2016B Academy Black",
+        "result": "L",
+        "score": "2-5"
+      }
+    ],
+    "location": {
+      "name": "Pioneer High School",
+      "field": "Field 1C",
+      "address": "1485 Blossom Hill Rd, San Jose, CA 95123",
+      "googleMapsUrl": "https://www.google.com/maps/dir//1485+Blossom+Hill+Rd,+San+Jose,+CA+95123",
+      "embedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3175.2!2d-121.85!3d37.25!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808e3190d1c1c1c1%3A0x1234567890!2sPioneer%20High%20School!5e0!3m2!1sen!2sus!4v1234567890!5m2!1sen!2sus"
+    },
+    "homeAway": "home",
+    "jersey": "black",
+    "socks": "black",
+    "result": {
+      "us": 3,
+      "them": 1,
+      "goalScorers": [
+        "Arthur Yao (1)",
+        "Jackson Kammah (1)",
+        "Matias Carrillo (1)"
+      ],
+      "assists": [
+        "Tiago Pires (1)"
+      ]
+    },
+    "teamLogos": {
+      "home": "/images/logos/mercury-b16.png",
+      "away": "/images/logos/santa-clara-rush.png"
+    },
+    "weatherUrl": "https://weather.com/weather/hourbyhour/l/95123?day=1&hour=14",
+    "gotsportUrl": "https://system.gotsport.com/org_event/events/44142/schedules?team=3231307",
+    "photoAlbumUrl": null,
+    "matchNumber": "17584"
+  },
+  {
+    "id": "game-002",
+    "date": "2025-09-20",
+    "time": "10:30 AM",
+    "opponent": "Cupertino FC Flames 16B",
+    "mercuryRecord": "1-0-0",
+    "opponentRecord": "4-3-1",
+    "opponentGoals": "",
+    "mercuryRecentResults": [
+      {
+        "date": "2025-09-07",
+        "opponent": "Santa Clara Rush",
+        "score": "3-1",
+        "result": "W"
+      }
+    ],
+    "opponentRecentResults": [
+      {
+        "date": "2025-09-06",
+        "opponent": "ESJFC",
+        "result": "L",
+        "score": "5-6"
+      },
+      {
+        "date": "2025-08-17",
+        "opponent": "2016B Academy Black",
+        "result": "L",
+        "score": "2-14"
+      },
+      {
+        "date": "2025-08-16",
+        "opponent": "Allstars United",
+        "result": "W",
+        "score": "6-0"
+      }
+    ],
+    "location": {
+      "name": "Creekside Park",
+      "field": "Creekside 2 7v7",
+      "address": "10455 Miller Ave, Cupertino, CA 95014",
+      "googleMapsUrl": "https://www.google.com/maps/dir//10455+Miller+Ave,+Cupertino,+CA+95014",
+      "embedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1586.5511615873693!2d-122.01548041058182!3d37.31640384259333!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb574a96dd96d%3A0xc9081c6e682de4b1!2sCreekside%20Park!5e0!3m2!1sen!2sus!4v1758309369609!5m2!1sen!2sus"
+    },
+    "homeAway": "away",
+    "jersey": "white",
+    "socks": "white",
+    "result": {
+      "us": 3,
+      "them": 3,
+      "goalScorers": [
+        "Tiago Pires (3)"
+      ],
+      "assists": [
+        "Kaden Tamura (1)"
+      ]
+    },
+    "teamLogos": {
+      "home": "/images/logos/cupertino-flames.png",
+      "away": "/images/logos/mercury-b16.png"
+    },
+    "weatherUrl": "https://weather.com/weather/hourbyhour/l/95014?day=1&hour=10",
+    "gotsportUrl": "https://system.gotsport.com/org_event/events/44142/schedules?team=3231307",
+    "photoAlbumUrl": "https://shotsbyryanq.pixieset.com/almadenfcmercury16blackvscupertinofcflames16b/",
+    "matchNumber": "17595"
+  },
+  {
+    "id": "game-003",
+    "date": "2025-10-05",
+    "time": "10:30 AM",
+    "opponent": "East San Jose FC ESJFC 16B Latinos White",
+    "mercuryRecord": "1-0-1",
+    "opponentRecord": "3-4-0",
+    "opponentGoals": "",
+    "mercuryRecentResults": [
+      {
+        "date": "2025-09-07",
+        "opponent": "Santa Clara Rush",
+        "score": "3-1",
+        "result": "W"
+      },
+      {
+        "date": "2025-09-20",
+        "opponent": "Cupertino FC Flames",
+        "score": "3-3",
+        "result": "D"
+      }
+    ],
+    "opponentRecentResults": [
+      {
+        "date": "2025-09-13",
+        "opponent": "2016B Academy Black",
+        "result": "L",
+        "score": "2-4"
+      },
+      {
+        "date": "2025-09-06",
+        "opponent": "Cupertino FC Flames",
+        "result": "W",
+        "score": "6-5"
+      },
+      {
+        "date": "2025-08-24",
+        "opponent": "Allstars United",
+        "result": "W",
+        "score": "4-1"
+      }
+    ],
+    "location": {
+      "name": "Washington Elementary School",
+      "field": "Full Field",
+      "address": "100 Oak St, San Jose, CA 95110",
+      "googleMapsUrl": "https://www.google.com/maps/dir//100+Oak+St,+San+Jose,+CA+95110",
+      "embedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3172.8!2d-121.877!3d37.339!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fcca1c1c1c1c1%3A0x1234567890abcdef!2s100%20Oak%20St%2C%20San%20Jose%2C%20CA%2095110!5e0!3m2!1sen!2sus!4v1234567890123!5m2!1sen!2sus"
+    },
+    "homeAway": "away",
+    "jersey": "white",
+    "socks": "white",
+    "result": {
+      "us": 1,
+      "them": 5,
+      "goalScorers": [
+        "Tiago Pires (1)"
+      ],
+      "assists": []
+    },
+    "teamLogos": {
+      "home": "/images/logos/east-san-jose-fc.png",
+      "away": "/images/logos/mercury-b16.png"
+    },
+    "weatherUrl": "https://weather.com/weather/hourbyhour/l/95046?day=1&hour=10",
+    "gotsportUrl": "https://system.gotsport.com/org_event/events/44142/schedules?team=3231307",
+    "photoAlbumUrl": null,
+    "matchNumber": "17602"
+  },
+  {
+    "id": "game-004",
+    "date": "2025-10-12",
+    "time": "3:30 PM",
+    "opponent": "Los Gatos United 2016B Academy Black",
+    "mercuryRecord": "1-1-1",
+    "opponentRecord": "3-0-0",
+    "opponentGoals": "",
+    "mercuryRecentResults": [
+      {
+        "date": "2025-09-07",
+        "opponent": "Santa Clara Rush",
+        "score": "3-1",
+        "result": "W"
+      },
+      {
+        "date": "2025-09-20",
+        "opponent": "Cupertino FC Flames",
+        "score": "3-3",
+        "result": "D"
+      },
+      {
+        "date": "2025-10-05",
+        "opponent": "ESJFC Latinos White",
+        "score": "1-5",
+        "result": "L"
+      }
+    ],
+    "opponentRecentResults": [
+      {
+        "date": "2025-08-17",
+        "opponent": "Cupertino FC Flames",
+        "score": "14-2",
+        "result": "W"
+      },
+      {
+        "date": "2025-08-31",
+        "opponent": "Santa Clara Rush",
+        "score": "5-2",
+        "result": "W"
+      }
+    ],
+    "location": {
+      "name": "Pioneer High School",
+      "field": "Field 1C",
+      "address": "1485 Blossom Hill Rd, San Jose, CA 95123",
+      "googleMapsUrl": "https://www.google.com/maps/dir//1485+Blossom+Hill+Rd,+San+Jose,+CA+95123",
+      "embedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3175.2!2d-121.85!3d37.25!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808e3190d1c1c1c1%3A0x1234567890!2sPioneer%20High%20School!5e0!3m2!1sen!2sus!4v1234567890!5m2!1sen!2sus"
+    },
+    "homeAway": "home",
+    "jersey": "black",
+    "socks": "black",
+    "result": {
+      "us": 2,
+      "them": 3,
+      "goalScorers": [
+        "Arthur Yao (1)",
+        "Kaden Tamura (1)"
+      ],
+      "assists": []
+    },
+    "teamLogos": {
+      "home": "/images/logos/mercury-b16.png",
+      "away": "/images/logos/los-gatos-united.png"
+    },
+    "weatherUrl": "https://weather.com/weather/hourbyhour/l/95123?day=1&hour=15",
+    "gotsportUrl": "https://system.gotsport.com/org_event/events/44142/schedules?team=3231307",
+    "photoAlbumUrl": null
+  },
+  {
+    "id": "game-005",
+    "date": "2025-11-30",
+    "time": "2:00 PM",
+    "opponent": "Bay Area Surf 16B Academy I",
+    "mercuryRecord": "1-2-1",
+    "opponentRecord": "4-3-0",
+    "opponentGoals": "",
+    "mercuryRecentResults": [
+      {
+        "date": "2025-09-07",
+        "opponent": "Santa Clara Rush",
+        "score": "3-1",
+        "result": "W"
+      },
+      {
+        "date": "2025-09-20",
+        "opponent": "Cupertino FC Flames",
+        "score": "3-3",
+        "result": "D"
+      },
+      {
+        "date": "2025-10-05",
+        "opponent": "ESJFC Latinos White",
+        "score": "1-5",
+        "result": "L"
+      },
+      {
+        "date": "2025-10-12",
+        "opponent": "Los Gatos United",
+        "score": "2-3",
+        "result": "L"
+      }
+    ],
+    "opponentRecentResults": [
+      {
+        "date": "2025-10-12",
+        "opponent": "ESJFC",
+        "result": "W",
+        "score": "3-1"
+      },
+      {
+        "date": "2025-10-11",
+        "opponent": "2016B Academy Black",
+        "result": "L",
+        "score": "3-6"
+      },
+      {
+        "date": "2025-10-04",
+        "opponent": "Cupertino FC Flames",
+        "result": "L",
+        "score": "1-3"
+      }
+    ],
+    "location": {
+      "name": "Church on the Hill",
+      "field": "7v7 Field",
+      "address": "500 Sands Dr, San Jose, CA 95125",
+      "googleMapsUrl": "https://www.google.com/maps/dir//500+Sands+Dr,+San+Jose,+CA+95125",
+      "embedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3173.234!2d-121.898!3d37.304!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808e33a1c1c1c1c1%3A0xabcdef1234567890!2s500%20Sands%20Dr%2C%20San%20Jose%2C%20CA%2095125!5e0!3m2!1sen!2sus!4v1234567890123!5m2!1sen!2sus"
+    },
+    "homeAway": "away",
+    "jersey": "white",
+    "socks": "white",
+    "result": {
+      "us": 1,
+      "them": 2,
+      "goalScorers": ["Jackson Kammah (1)"],
+      "assists": ["Benji Mejia (1)"]
+    },
+    "teamLogos": {
+      "home": "/images/logos/bay-area-surf.png",
+      "away": "/images/logos/mercury-b16.png"
+    },
+    "weatherUrl": "https://weather.com/weather/hourbyhour/l/95032?day=1&hour=15",
+    "gotsportUrl": "https://system.gotsport.com/org_event/events/44142/schedules?team=3231307",
+    "photoAlbumUrl": null,
+    "matchNumber": "17610"
+  },
+  {
+    "id": "game-006",
+    "date": "2025-11-16",
+    "time": "8:45 AM",
+    "opponent": "Allstars United 16B Pre-Academy",
+    "mercuryRecord": "1-2-1",
+    "opponentRecord": "2-6-0",
+    "opponentGoals": "",
+    "mercuryRecentResults": [
+      {
+        "date": "2025-09-07",
+        "opponent": "Santa Clara Rush",
+        "score": "3-1",
+        "result": "W"
+      },
+      {
+        "date": "2025-09-20",
+        "opponent": "Cupertino FC Flames",
+        "score": "3-3",
+        "result": "D"
+      },
+      {
+        "date": "2025-10-05",
+        "opponent": "ESJFC Latinos White",
+        "score": "1-5",
+        "result": "L"
+      },
+      {
+        "date": "2025-10-12",
+        "opponent": "Los Gatos United",
+        "score": "2-3",
+        "result": "L"
+      }
+    ],
+    "opponentRecentResults": [
+      {
+        "date": "2025-10-12",
+        "opponent": "West Valley United 016B Red",
+        "result": "L",
+        "score": "1-3"
+      },
+      {
+        "date": "2025-09-28",
+        "opponent": "Santa Clara Rush 2016B Cougars",
+        "result": "W",
+        "score": "3-2"
+      },
+      {
+        "date": "2025-08-24",
+        "opponent": "ESJFC",
+        "result": "L",
+        "score": "1-4"
+      }
+    ],
+    "location": {
+      "name": "Pioneer High School",
+      "field": "Field 1C",
+      "address": "1485 Blossom Hill Rd, San Jose, CA 95123",
+      "googleMapsUrl": "https://www.google.com/maps/dir//1485+Blossom+Hill+Rd,+San+Jose,+CA+95123",
+      "embedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3175.2!2d-121.85!3d37.25!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808e3190d1c1c1c1%3A0x1234567890!2sPioneer%20High%20School!5e0!3m2!1sen!2sus!4v1234567890!5m2!1sen!2sus"
+    },
+    "homeAway": "home",
+    "jersey": "black",
+    "socks": "black",
+    "result": {
+      "us": 2,
+      "them": 0,
+      "goalScorers": ["Roman Ruiz (1)", "Tiago Pires (1)"],
+      "assists": []
+    },
+    "teamLogos": {
+      "home": "/images/logos/mercury-b16.png",
+      "away": "/images/logos/allstars-united.png"
+    },
+    "weatherUrl": "https://weather.com/weather/hourbyhour/l/95123?day=1&hour=11",
+    "gotsportUrl": "https://system.gotsport.com/org_event/events/44142/schedules?team=3231307",
+    "photoAlbumUrl": null,
+    "matchNumber": "17592"
+  },
+  {
+    "id": "game-007",
+    "date": "2025-11-08",
+    "time": "11:00 AM",
+    "opponent": "West Valley United 016B Red",
+    "mercuryRecord": "1-2-1",
+    "opponentRecord": "2-4-0",
+    "opponentGoals": "",
+    "mercuryRecentResults": [
+      {
+        "date": "2025-09-07",
+        "opponent": "Santa Clara Rush",
+        "score": "3-1",
+        "result": "W"
+      },
+      {
+        "date": "2025-09-20",
+        "opponent": "Cupertino FC Flames",
+        "score": "3-3",
+        "result": "D"
+      },
+      {
+        "date": "2025-10-05",
+        "opponent": "ESJFC Latinos White",
+        "score": "1-5",
+        "result": "L"
+      },
+      {
+        "date": "2025-10-12",
+        "opponent": "Los Gatos United",
+        "score": "2-3",
+        "result": "L"
+      }
+    ],
+    "opponentRecentResults": [
+      {
+        "date": "2025-10-18",
+        "opponent": "Cupertino FC Flames",
+        "result": "L",
+        "score": "3-6"
+      },
+      {
+        "date": "2025-10-12",
+        "opponent": "Allstars United",
+        "result": "W",
+        "score": "3-1"
+      },
+      {
+        "date": "2025-10-04",
+        "opponent": "2016B Academy Black",
+        "result": "L",
+        "score": "2-4"
+      }
+    ],
+    "location": {
+      "name": "Latimer School",
+      "field": "9v9 Turf Field",
+      "address": "4250 Latimer Ave, San Jose, CA 95130",
+      "googleMapsUrl": "https://www.google.com/maps/dir//4250+Latimer+Ave,+San+Jose,+CA+95130",
+      "embedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3170.123!2d-121.954!3d37.317!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fcc7a1c1c1c1c%3A0x9876543210fedcba!2s4250%20Latimer%20Ave%2C%20San%20Jose%2C%20CA%2095130!5e0!3m2!1sen!2sus!4v1234567890123!5m2!1sen!2sus"
+    },
+    "homeAway": "away",
+    "jersey": "white",
+    "socks": "white",
+    "result": {
+      "us": 4,
+      "them": 1,
+      "goalScorers": ["Arthur Yao (2)", "Kaden Tamura (1)", "Matias Carrillo (1)"],
+      "assists": ["Matias Carrillo (1)", "Ivan Yi (1)", "Kaden Tamura (1)"]
+    },
+    "teamLogos": {
+      "home": "/images/logos/west-valley-united.png",
+      "away": "/images/logos/mercury-b16.png"
+    },
+    "weatherUrl": "https://weather.com/weather/hourbyhour/l/95070?day=1&hour=11",
+    "gotsportUrl": "https://system.gotsport.com/org_event/events/44142/schedules?team=3231307",
+    "photoAlbumUrl": null,
+    "matchNumber": "17589"
+  },
+  {
+    "id": "game-008",
+    "date": "2025-11-09",
+    "time": "11:30 AM",
+    "opponent": "Santa Clara Rush 2016B Cougars - Blue",
+    "mercuryRecord": "1-2-1",
+    "opponentRecord": "3-5-0",
+    "opponentGoals": "",
+    "mercuryRecentResults": [
+      {
+        "date": "2025-09-07",
+        "opponent": "Santa Clara Rush",
+        "score": "3-1",
+        "result": "W"
+      },
+      {
+        "date": "2025-09-20",
+        "opponent": "Cupertino FC Flames",
+        "score": "3-3",
+        "result": "D"
+      },
+      {
+        "date": "2025-10-05",
+        "opponent": "ESJFC Latinos White",
+        "score": "1-5",
+        "result": "L"
+      },
+      {
+        "date": "2025-10-12",
+        "opponent": "Los Gatos United",
+        "score": "2-3",
+        "result": "L"
+      }
+    ],
+    "opponentRecentResults": [
+      {
+        "date": "2025-09-07",
+        "opponent": "Almaden FC Mercury B16 Black",
+        "result": "L",
+        "score": "1-3"
+      }
+    ],
+    "location": {
+      "name": "Reed and Grant Sports Park",
+      "field": "Field #5",
+      "address": "750 Reed St, Santa Clara, CA 95050",
+      "googleMapsUrl": "https://www.google.com/maps/dir//750+Reed+St,+Santa+Clara,+CA+95050",
+      "embedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3172.567!2d-121.962!3d37.348!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb7a1c1c1c1c1%3A0xfedcba0987654321!2s750%20Reed%20St%2C%20Santa%20Clara%2C%20CA%2095050!5e0!3m2!1sen!2sus!4v1234567890123!5m2!1sen!2sus"
+    },
+    "homeAway": "away",
+    "jersey": "white",
+    "socks": "white",
+    "result": {
+      "us": 0,
+      "them": 1,
+      "goalScorers": [],
+      "assists": []
+    },
+    "teamLogos": {
+      "home": "/images/logos/santa-clara-rush.png",
+      "away": "/images/logos/mercury-b16.png"
+    },
+    "weatherUrl": "https://weather.com/weather/hourbyhour/l/95050?day=1&hour=11",
+    "gotsportUrl": "https://system.gotsport.com/org_event/events/44142/schedules?team=3231307",
+    "photoAlbumUrl": null,
+    "matchNumber": "17612"
+  }
+]

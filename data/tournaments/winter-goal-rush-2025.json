@@ -1,0 +1,534 @@
+{
+  "id": "winter-goal-rush-2025",
+  "name": "2025 Winter Goal Rush",
+  "organizer": "San Jose Rush",
+  "dates": {
+    "start": "2025-12-06",
+    "end": "2025-12-07"
+  },
+  "division": "BU10 Blue",
+  "format": "7v7",
+  "location": {
+    "name": "Morgan Hill Outdoor Sports Complex",
+    "address": "16360 Condit Rd, Morgan Hill, CA 95037",
+    "note": "No Dogs Allowed",
+    "googleMapsUrl": "https://maps.google.com/?q=Morgan+Hill+Outdoor+Sports+Complex",
+    "embedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3191.8!2d-121.6!3d37.1!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sMorgan+Hill+Outdoor+Sports+Complex!5e0!3m2!1sen!2sus!4v1",
+    "fields": [
+      "4A",
+      "5A",
+      "5B",
+      "5C"
+    ],
+    "parking": "$10 per day. Main entrances on Condit Rd accept card. Other lots are cash only. Have cash ready for the day."
+  },
+  "brackets": {
+    "A": {
+      "teams": [
+        {
+          "name": "Central Coast Dynasty FC 2016 White",
+          "shortName": "CC Dynasty"
+        },
+        {
+          "name": "San Jose Rush 16B Blue",
+          "shortName": "SJ Rush"
+        },
+        {
+          "name": "La Masia U10",
+          "shortName": "La Masia"
+        },
+        {
+          "name": "Blue Lightning 2016 North",
+          "shortName": "Blue Lightning"
+        }
+      ],
+      "games": [
+        {
+          "id": "260",
+          "date": "2025-12-06",
+          "time": "9:50 AM",
+          "homeTeam": "San Jose Rush 16B Blue",
+          "awayTeam": "La Masia U10",
+          "location": "TBA - Field 1",
+          "result": "1-2"
+        },
+        {
+          "id": "259",
+          "date": "2025-12-06",
+          "time": "10:50 AM",
+          "homeTeam": "Central Coast Dynasty FC 2016 White",
+          "awayTeam": "Blue Lightning 2016 North",
+          "location": "Field 5A",
+          "result": "4-5"
+        },
+        {
+          "id": "263",
+          "date": "2025-12-06",
+          "time": "12:50 PM",
+          "homeTeam": "La Masia U10",
+          "awayTeam": "Central Coast Dynasty FC 2016 White",
+          "location": "Field 5A",
+          "result": "3-1"
+        },
+        {
+          "id": "264",
+          "date": "2025-12-06",
+          "time": "1:50 PM",
+          "homeTeam": "Blue Lightning 2016 North",
+          "awayTeam": "San Jose Rush 16B Blue",
+          "location": "Field 5B",
+          "result": "0-2"
+        },
+        {
+          "id": "268",
+          "date": "2025-12-07",
+          "time": "1:00 PM",
+          "homeTeam": "La Masia U10",
+          "awayTeam": "Blue Lightning 2016 North",
+          "location": "Field 4A",
+          "result": "4-0"
+        },
+        {
+          "id": "267",
+          "date": "2025-12-07",
+          "time": "1:00 PM",
+          "homeTeam": "Central Coast Dynasty FC 2016 White",
+          "awayTeam": "San Jose Rush 16B Blue",
+          "location": "Field 5C",
+          "result": "5-1"
+        }
+      ]
+    },
+    "B": {
+      "teams": [
+        {
+          "name": "PV United 16B Blue",
+          "shortName": "PV United"
+        },
+        {
+          "name": "Almaden FC Mercury B16 Black",
+          "shortName": "Mercury",
+          "isUs": true
+        },
+        {
+          "name": "2016 SENTINELS ACADEMY",
+          "shortName": "Sentinels"
+        },
+        {
+          "name": "NBW Apex Warriors 2016",
+          "shortName": "NBW Apex"
+        }
+      ],
+      "games": [
+        {
+          "id": "262",
+          "date": "2025-12-06",
+          "time": "8:50 AM",
+          "homeTeam": "Almaden FC Mercury B16 Black",
+          "awayTeam": "2016 SENTINELS ACADEMY",
+          "location": "Field 5A",
+          "result": "0-8",
+          "isMercuryGame": true
+        },
+        {
+          "id": "261",
+          "date": "2025-12-06",
+          "time": "11:10 AM",
+          "homeTeam": "PV United 16B Blue",
+          "awayTeam": "NBW Apex Warriors 2016",
+          "location": "Church on the Hill - Field 1",
+          "result": "5-3"
+        },
+        {
+          "id": "265",
+          "date": "2025-12-06",
+          "time": "2:10 PM",
+          "homeTeam": "2016 SENTINELS ACADEMY",
+          "awayTeam": "PV United 16B Blue",
+          "location": "Church on the Hill - Field 1",
+          "result": "3-0"
+        },
+        {
+          "id": "266",
+          "date": "2025-12-06",
+          "time": "3:50 PM",
+          "homeTeam": "NBW Apex Warriors 2016",
+          "awayTeam": "Almaden FC Mercury B16 Black",
+          "location": "Field 5C",
+          "result": "1-2",
+          "isMercuryGame": true
+        },
+        {
+          "id": "270",
+          "date": "2025-12-07",
+          "time": "12:00 PM",
+          "homeTeam": "2016 SENTINELS ACADEMY",
+          "awayTeam": "NBW Apex Warriors 2016",
+          "location": "Field 5C",
+          "result": "6-0"
+        },
+        {
+          "id": "269",
+          "date": "2025-12-07",
+          "time": "1:00 PM",
+          "homeTeam": "PV United 16B Blue",
+          "awayTeam": "Almaden FC Mercury B16 Black",
+          "location": "Field 5A",
+          "result": "6-0",
+          "isMercuryGame": true
+        }
+      ]
+    }
+  },
+  "final": {
+    "id": "271",
+    "date": "2025-12-07",
+    "time": "3:00 PM",
+    "homeTeam": "Bracket A #1",
+    "awayTeam": "Bracket B #1",
+    "location": "Field 4A",
+    "result": null
+  },
+  "mercuryGames": [
+    {
+      "id": "262",
+      "gameNumber": 1,
+      "date": "2025-12-06",
+      "day": "Saturday",
+      "time": "8:50 AM",
+      "opponent": "2016 SENTINELS ACADEMY",
+      "opponentShort": "Sentinels",
+      "homeAway": "home",
+      "field": "5A",
+      "location": "Morgan Hill Outdoor Sports Complex",
+      "jersey": "black",
+      "socks": "black",
+      "result": {
+        "us": 0,
+        "them": 8
+      }
+    },
+    {
+      "id": "266",
+      "gameNumber": 2,
+      "date": "2025-12-06",
+      "day": "Saturday",
+      "time": "3:50 PM",
+      "opponent": "NBW Apex Warriors 2016",
+      "opponentShort": "NBW Apex",
+      "homeAway": "away",
+      "field": "5C",
+      "location": "Morgan Hill Outdoor Sports Complex",
+      "jersey": "white",
+      "socks": "white",
+      "result": {
+        "us": 2,
+        "them": 1
+      }
+    },
+    {
+      "id": "269",
+      "gameNumber": 3,
+      "date": "2025-12-07",
+      "day": "Sunday",
+      "time": "1:00 PM",
+      "opponent": "PV United 16B Blue",
+      "opponentShort": "PV United",
+      "homeAway": "away",
+      "field": "5A",
+      "location": "Morgan Hill Outdoor Sports Complex",
+      "jersey": "white",
+      "socks": "white",
+      "result": {
+        "us": 0,
+        "them": 6
+      }
+    },
+    {
+      "id": "271",
+      "gameNumber": 4,
+      "date": "2025-12-07",
+      "day": "Sunday",
+      "time": "3:00 PM",
+      "opponent": "TBD (Bracket A Winner)",
+      "opponentShort": "TBD",
+      "homeAway": "tbd",
+      "field": "4A",
+      "location": "Morgan Hill Outdoor Sports Complex",
+      "jersey": "tbd",
+      "socks": "tbd",
+      "result": null,
+      "isFinal": true,
+      "conditional": true,
+      "note": "If Mercury wins Bracket B"
+    }
+  ],
+  "standings": {
+    "A": [
+      {
+        "team": "La Masia",
+        "fullName": "La Masia Athletic Club La Masia U10",
+        "w": 3,
+        "l": 0,
+        "t": 0,
+        "gf": 9,
+        "ga": 2,
+        "pts": 27
+      },
+      {
+        "team": "CC Dynasty",
+        "fullName": "CC Dynasty FC Central Coast Dynasty FC 2016 White",
+        "w": 1,
+        "l": 2,
+        "t": 0,
+        "gf": 9,
+        "ga": 9,
+        "pts": 13
+      },
+      {
+        "team": "SJ Rush",
+        "fullName": "San Jose Rush San Jose Rush 16B Blue",
+        "w": 1,
+        "l": 2,
+        "t": 0,
+        "gf": 4,
+        "ga": 7,
+        "pts": 11
+      },
+      {
+        "team": "Blue Lightning",
+        "fullName": "Blue Lightning Soccer Club Blue Lightning 2016 North",
+        "w": 1,
+        "l": 2,
+        "t": 0,
+        "gf": 4,
+        "ga": 10,
+        "pts": 9
+      }
+    ],
+    "B": [
+      {
+        "team": "Sentinels",
+        "fullName": "Sentinels Soccer Club 2016 SENTINELS ACADEMY",
+        "w": 3,
+        "l": 0,
+        "t": 0,
+        "gf": 11,
+        "ga": 0,
+        "pts": 30
+      },
+      {
+        "team": "PV United",
+        "fullName": "Pajaro Valley Youth Soccer Club PV United 16B Blue",
+        "w": 2,
+        "l": 1,
+        "t": 0,
+        "gf": 8,
+        "ga": 6,
+        "pts": 19
+      },
+      {
+        "team": "Mercury",
+        "fullName": "Almaden FC Almaden FC Mercury B16 Black",
+        "w": 1,
+        "l": 2,
+        "t": 0,
+        "gf": 2,
+        "ga": 15,
+        "pts": 8,
+        "isUs": true
+      },
+      {
+        "team": "NBW Apex",
+        "fullName": "Newbility Warriors Athletic Club NBW Apex Warriors 2016",
+        "w": 0,
+        "l": 3,
+        "t": 0,
+        "gf": 4,
+        "ga": 13,
+        "pts": 4
+      }
+    ]
+  },
+  "rules": {
+    "gameDuration": "2 x 20 minute halves",
+    "halftime": "5 minutes",
+    "format": "7v7",
+    "ballSize": "Size 4",
+    "buildOutLine": true,
+    "offside": true,
+    "substitutions": "Unlimited on any stoppage",
+    "minPlayers": 5,
+    "goalKicks": "From ground, opponents behind build-out line",
+    "punting": "Not allowed (U10)",
+    "headers": "Not allowed (U10)",
+    "tiebreakers": [
+      "Points (3 for win, 1 for tie, 0 for loss)",
+      "Head-to-head result",
+      "Goal difference",
+      "Goals scored",
+      "FIFA penalty kicks (finals only)"
+    ],
+    "redCard": "Player ejected, team plays short",
+    "yellowCards": "2 yellows = red card",
+    "coachingArea": "Technical area only",
+    "spectators": "Opposite side of field from benches"
+  },
+  "fieldMap": {
+    "imageUrl": "/images/mhosc-field-map.png",
+    "mercuryFields": [
+      "4A",
+      "5A",
+      "5C"
+    ],
+    "fields": {
+      "1": {
+        "top": 52,
+        "left": 39,
+        "width": 16,
+        "height": 13,
+        "format": "11v11"
+      },
+      "2": {
+        "top": 52,
+        "left": 58,
+        "width": 16,
+        "height": 13,
+        "format": "11v11"
+      },
+      "3": {
+        "top": 34,
+        "left": 39,
+        "width": 18,
+        "height": 14,
+        "format": "11v11"
+      },
+      "C": {
+        "top": 17,
+        "left": 5,
+        "width": 13,
+        "height": 14,
+        "format": "11v11"
+      },
+      "U": {
+        "top": 17,
+        "left": 19,
+        "width": 8,
+        "height": 11,
+        "format": "9v9"
+      },
+      "B": {
+        "top": 34,
+        "left": 5,
+        "width": 13,
+        "height": 14,
+        "format": "11v11"
+      },
+      "A": {
+        "top": 34,
+        "left": 19,
+        "width": 12,
+        "height": 14,
+        "format": "11v11"
+      },
+      "SoccerTurf": {
+        "top": 52,
+        "left": 5,
+        "width": 13,
+        "height": 13,
+        "format": "11v11"
+      },
+      "FootballTurf": {
+        "top": 52,
+        "left": 19,
+        "width": 12,
+        "height": 13,
+        "format": "11v11"
+      },
+      "5A": {
+        "top": 17,
+        "left": 39,
+        "width": 6,
+        "height": 12,
+        "format": "7v7",
+        "isMercury": true
+      },
+      "5B": {
+        "top": 17,
+        "left": 46,
+        "width": 6,
+        "height": 12,
+        "format": "7v7"
+      },
+      "5C": {
+        "top": 17,
+        "left": 53,
+        "width": 6,
+        "height": 12,
+        "format": "7v7",
+        "isMercury": true
+      },
+      "6A": {
+        "top": 17,
+        "left": 60,
+        "width": 6,
+        "height": 12,
+        "format": "9v9"
+      },
+      "6B": {
+        "top": 17,
+        "left": 67,
+        "width": 6,
+        "height": 12,
+        "format": "9v9"
+      },
+      "4A": {
+        "top": 34,
+        "left": 60,
+        "width": 6,
+        "height": 12,
+        "format": "7v7",
+        "isMercury": true
+      },
+      "4B": {
+        "top": 34,
+        "left": 67,
+        "width": 6,
+        "height": 12,
+        "format": "9v9"
+      }
+    },
+    "parking": {
+      "main": {
+        "label": "Main Parking",
+        "top": 73,
+        "left": 25
+      },
+      "side": {
+        "label": "Side Parking",
+        "top": 40,
+        "left": 2
+      },
+      "east": {
+        "label": "East Parking",
+        "top": 73,
+        "left": 60
+      }
+    },
+    "entrances": {
+      "south": {
+        "label": "16500 Condit Road",
+        "top": 90,
+        "left": 45
+      },
+      "north": {
+        "label": "Murphy Ave",
+        "top": 8,
+        "left": 45
+      }
+    }
+  },
+  "mercuryRecord": { "w": 1, "l": 2, "t": 0 },
+  "mercuryPlacement": "GROUP STAGE",
+  "mercuryPlacementRank": "4th"
+}

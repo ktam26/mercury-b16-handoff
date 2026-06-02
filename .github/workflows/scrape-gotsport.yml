@@ -1,0 +1,74 @@
+name: Scrape GotSport Data
+
+on:
+  schedule:
+    # Run every Tuesday at 7 AM UTC (12 AM Pacific during daylight time, 11 PM Monday during standard time)
+    - cron: '0 7 * * 2'
+  workflow_dispatch: # Allow manual trigger
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+      issues: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          persist-credentials: true
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run scraper
+        run: npm run scrape
+
+      - name: Check for changes
+        id: check_changes
+        run: |
+          if git diff --quiet -- data/gotsport-data.json data/gotsport-changes.json data/games.json; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Commit and push if changed
+        if: steps.check_changes.outputs.changed == 'true'
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add data/gotsport-data.json data/gotsport-changes.json data/games.json
+          git commit -m "Update GotSport data [automated]"
+          git pull --rebase origin main
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Create issue if changes detected
+        if: steps.check_changes.outputs.changed == 'true'
+        uses: actions/github-script@v9
+        with:
+          script: |
+            const fs = require('fs');
+            const changes = JSON.parse(fs.readFileSync('data/gotsport-changes.json', 'utf8'));
+            const latestChanges = changes[changes.length - 1];
+
+            const body = `## GotSport Data Updated\n\n**Timestamp:** ${latestChanges.timestamp}\n\n**Changes:**\n${latestChanges.changes.map(c => `- ${c}`).join('\n')}\n\n---\n*This is an automated update from the weekly scraper.*`;
+
+            github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: '⚽ GotSport Data Update',
+              body: body,
+              labels: ['automated', 'gotsport-update']
+            });

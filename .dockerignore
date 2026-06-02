@@ -1,0 +1,57 @@
+# Dependencies
+node_modules
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Next.js (web app - not needed for MCP server)
+.next
+out
+build
+
+# Environment variables
+.env
+.env*.local
+
+# Git
+.git
+.gitignore
+
+# Documentation
+*.md
+docs/
+README.md
+
+# CI/CD
+.github/
+.vercel/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Testing
+coverage/
+.nyc_output/
+
+# Logs
+*.log
+logs/
+
+# Inspector config (development only)
+inspector.config.json
+.playwright-mcp/
+
+# Web app directories (not needed for MCP deployment)
+app/
+components/
+public/
+styles/
+next.config.js

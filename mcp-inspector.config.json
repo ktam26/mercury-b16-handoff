@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "almaden-local": {
+      "type": "streamable-http",
+      "url": "http://localhost:3001/mcp"
+    },
+    "almaden-remote": {
+      "type": "streamable-http",
+      "url": "https://mercury-b16-app.onrender.com/mcp"
+    }
+  }
+}

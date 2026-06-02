@@ -1,0 +1,22 @@
+name: Deploy MCP Server
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'mercury-b16-app/data/**'
+      - 'mercury-b16-app/appsdk/**'
+      - 'mercury-b16-app/lib/**'
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger Render Deploy
+        run: |
+          if [ -n "${{ secrets.RENDER_DEPLOY_HOOK_URL }}" ]; then
+            curl -s "${{ secrets.RENDER_DEPLOY_HOOK_URL }}"
+            echo "Render deployment triggered"
+          else
+            echo "RENDER_DEPLOY_HOOK_URL not configured - skipping deployment"
+          fi
