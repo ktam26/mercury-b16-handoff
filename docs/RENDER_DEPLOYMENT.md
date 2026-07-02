@@ -52,7 +52,7 @@ git push -u origin main
 
 ### Step 3: Configure the Service
 
-Render will detect your `render.yaml` file automatically. Verify these settings:
+`render.yaml` in this repo only defines the GotSport scraper cron job, so Render won't auto-configure this Web Service from it — enter these settings by hand:
 
 #### Basic Settings
 - **Name**: `mercury-b16-mcp` (or your choice)
@@ -69,11 +69,13 @@ Render will detect your `render.yaml` file automatically. Verify these settings:
 
 ### Step 4: Environment Variables
 
-Render automatically provides `PORT`. Add these variables:
+Render automatically provides `PORT`. This service isn't defined in `render.yaml` (that file only covers the GotSport scraper cron job), so add these variables yourself under the service's **Environment** tab:
 
-- `NODE_ENV` = `production` (already set in render.yaml)
+- `NODE_ENV` = `production`
 - `MCP_ENABLED` = `true` (required for `/mcp` tool traffic)
-- `MCP_PATH` = `/mcp` (already set in render.yaml)
+- `MCP_PATH` = `/mcp`
+
+See `appsdk/README.md` for the full list of MCP server environment variables.
 
 ### Step 5: Deploy!
 
@@ -335,7 +337,7 @@ After deployment:
 1. ✅ Create Render account
 2. ✅ Push code to GitHub
 3. ✅ Connect repository to Render
-4. ✅ Deploy (automatically via `render.yaml`)
+4. ✅ Configure the Web Service by hand and deploy
 5. ✅ Test with MCP Inspector
 6. ✅ Register with ChatGPT
 

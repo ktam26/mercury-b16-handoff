@@ -95,6 +95,10 @@ If your games are on different days, change the cron (it's UTC). Format is `minu
 
 You can also trigger it manually anytime from the repo's **Actions** tab (**Run workflow**).
 
+### Tournament-specific scraper
+
+`.github/workflows/scrape-tournament.yml` is separate from the weekly scraper — it's a one-off workflow written for a specific tournament weekend, with the schedule's cron times hardcoded to that tournament's game times (currently the "Downtown Super Cup"). It won't fire for future tournaments on its own. Before each new tournament, either update the `cron` lines to the new tournament's dates/times, or disable the workflow (repo **Actions** tab → select it → **⋯ → Disable workflow**) if you don't need live scraping for that event.
+
 ---
 
 ## Manual fallback (if you don't want to use the script)

@@ -42,6 +42,9 @@ claude mcp add almaden --transport http --url https://mercury-b16-app.onrender.c
 |---|---|---|
 | `PORT` | `3001` | HTTP server port |
 | `HOST` | `0.0.0.0` | HTTP server host |
+| `MCP_PORT` | (falls back to `PORT`) | Legacy alias for `PORT`, used by some local tooling |
+| `MCP_HOST` | (falls back to `HOST`) | Legacy alias for `HOST`, used by some local tooling |
+| `MCP_PATH` | `/mcp` | URL path the MCP endpoint is served on |
 | `MCP_TRANSPORT` | `http` | Transport mode: `http` or `stdio` |
 | `MCP_ENABLED` | `false` | Must be `true` to enable MCP traffic |
 | `ALLOWED_ORIGINS` | (none) | Comma-separated CORS origins |
@@ -54,7 +57,7 @@ claude mcp add almaden --transport http --url https://mercury-b16-app.onrender.c
 
 ## Deployment
 
-Deployed to **Render** via Docker. See `DEPLOYMENT.md` in the project root for details.
+Deployed to **Render** via Docker. See `docs/RENDER_DEPLOYMENT.md` in the project root for details.
 
 ## Data Updates
 

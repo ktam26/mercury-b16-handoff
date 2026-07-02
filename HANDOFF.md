@@ -20,12 +20,11 @@ You can run the web app without the MCP server and without the scraper — they'
 
 ## Step 1 — Get your own API keys
 
-Two keys power the AI features (chat + image generation). Both have free tiers.
+One key powers all the AI features (chat + image generation). It has a free tier.
 
 | Key | Get it at | Powers |
 |---|---|---|
-| `GOOGLE_AI_KEY` | https://aistudio.google.com/app/apikey | Weather/location image generation, voice assistant |
-| `XAI_API_KEY` | https://x.ai/api | Rules chat / "Ask Mercury" assistant |
+| `GOOGLE_AI_KEY` | https://aistudio.google.com/app/apikey | Rules chat / "Ask Mercury" assistant, weather/location image generation, voice assistant |
 
 Copy the example file and fill in your keys:
 
@@ -41,7 +40,7 @@ cp .env.local.example .env.local
 ## Step 2 — Claim the Vercel deployment
 
 1. Create a free account at [vercel.com](https://vercel.com) and **Import** this GitHub repo as a new project (framework auto-detects as Next.js).
-2. In **Project → Settings → Environment Variables**, add `GOOGLE_AI_KEY` and `XAI_API_KEY` (same values as your `.env.local`).
+2. In **Project → Settings → Environment Variables**, add `GOOGLE_AI_KEY` (same value as your `.env.local`).
 3. Deploy. After this, every push to `main` auto-deploys.
 4. (Optional) Add your custom domain under **Settings → Domains**.
 
@@ -59,7 +58,7 @@ It uses the built-in `GITHUB_TOKEN` — **no personal token to create**. To chan
 
 Only needed if you want to expose team data to Claude Desktop/Code. Skip if you don't use it.
 
-1. Create a free account at [render.com](https://render.com), **New → Blueprint**, point it at this repo (it reads `render.yaml`).
+1. Create a free account at [render.com](https://render.com) and create a **Web Service** by hand, pointed at this repo. Full step-by-step (build/start commands, env vars) is in **[docs/RENDER_DEPLOYMENT.md](docs/RENDER_DEPLOYMENT.md)**. Note: `render.yaml` in this repo only defines the GotSport scraper cron job — it does not deploy the MCP server, so don't use Render's "New → Blueprint" option for this step.
 2. To auto-redeploy the MCP server when data changes, add a `RENDER_DEPLOY_HOOK_URL` secret in **GitHub repo → Settings → Secrets and variables → Actions** (get the URL from Render → your service → Settings → Deploy Hook). See [DEPLOYMENT details below](#mcp-server-details).
 
 ---
@@ -87,10 +86,11 @@ If the app loads with the current roster and season, you're set. Then:
 
 ## MCP server details
 
-- `render.yaml` — Render service + the weekly scraper cron config
+- `render.yaml` — the weekly scraper cron config only (does **not** configure the MCP server — see Step 4)
 - `appsdk/` — the MCP server source; `appsdk/Dockerfile` builds it
 - `.github/workflows/deploy-mcp.yml` — triggers the Render deploy hook when `data/`/`appsdk/`/`lib/` change
 - Connect Claude (remote): `claude mcp add team --transport http --url https://<your-render-service>.onrender.com/mcp`
 - Connect Claude (local): `claude mcp add team --command "npm run appsdk:dev"`
+- Full list of MCP server environment variables: `appsdk/README.md`
 
-See `docs/MCP_DEPLOYMENT_GUIDE.md` and `docs/RENDER_DEPLOYMENT.md` for more.
+See `docs/RENDER_DEPLOYMENT.md` for more.

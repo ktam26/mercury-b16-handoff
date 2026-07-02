@@ -653,5 +653,55 @@
       "📊 Opponent record updated for Santa Cruz City Soccer Club SANTA CRUZ SHARKS 16 WHITE: 3-6-0 → 3-6-1",
       "📊 Opponent record updated for OV Toros FC 2016B Black: 3-4-0 → 3-4-1"
     ]
+  },
+  {
+    "timestamp": "2026-05-19T08:09:55.340Z",
+    "changes": [
+      "Monterey County Soccer-ECFC Salinas ECFC 16/17B Pre-ECNL-1 points changed: 24 → 27",
+      "Monterey County Soccer-ECFC Salinas ECFC 16/17B Pre-ECNL-1 record updated: 9W-1L-0D (was 8W-1L-0D)",
+      "⚽ Almaden FC Almaden FC Mercury B16 Black moved from position 4 to 3",
+      "⚽ Almaden FC Almaden FC Mercury B16 Black points changed: 13 → 16",
+      "⚽ Almaden FC Almaden FC Mercury B16 Black record updated: 5W-3L-1D (was 4W-3L-1D)",
+      "Monterey Surf Soccer Club Monterey Surf B16 Academy I moved from position 3 to 4",
+      "Real Salinas Real Salinas 2016B White moved from position 6 to 5",
+      "Real Salinas Real Salinas 2016B White points changed: 10 → 13",
+      "Real Salinas Real Salinas 2016B White record updated: 4W-3L-1D (was 3W-3L-1D)",
+      "OV Toros FC 2016B Black moved from position 7 to 6",
+      "OV Toros FC 2016B Black points changed: 10 → 13",
+      "OV Toros FC 2016B Black record updated: 4W-4L-1D (was 3W-4L-1D)",
+      "Hollister Tremors Hollister Tremors moved from position 5 to 7",
+      "Audax Soccer Club Audax 2016B Orange record updated: 2W-6L-1D (was 2W-5L-1D)",
+      "Santa Cruz United Football Club 2016B Blue record updated: 2W-7L-0D (was 2W-6L-0D)",
+      "Hollister Tremors Hollister Tremors 2016B Team A record updated: 1W-9L-0D (was 1W-7L-0D)",
+      "⚽ Score updated for match 2292: Almaden FC Almaden FC Mercury B16 Black 4 - 3 Audax Soccer Club Audax 2016B Orange",
+      "⚽ Match 2292 status: Completed",
+      "📊 Opponent record updated for Hollister Tremors Hollister Tremors 2016B Team A: 1-7-0 → 1-9-0",
+      "📊 Opponent record updated for Monterey County Soccer-ECFC Salinas ECFC 16/17B Pre-ECNL-1: 8-1-0 → 9-1-0",
+      "📊 Opponent record updated for Santa Cruz United Football Club 2016B Blue: 2-6-0 → 2-7-0",
+      "📊 Opponent record updated for OV Toros FC 2016B Black: 3-4-1 → 4-4-1",
+      "📊 Opponent record updated for Audax Soccer Club Audax 2016B Orange: 2-5-1 → 2-6-1",
+      "📊 Opponent record updated for Real Salinas Real Salinas 2016B White: 3-3-1 → 4-3-1"
+    ]
+  },
+  {
+    "timestamp": "2026-06-02T08:31:46.902Z",
+    "changes": [
+      "Monterey Surf Soccer Club Monterey Surf B16 Academy I moved from position 4 to 3",
+      "Real Salinas Real Salinas 2016B White moved from position 5 to 4",
+      "Real Salinas Real Salinas 2016B White points changed: 13 → 16",
+      "Real Salinas Real Salinas 2016B White record updated: 5W-3L-1D (was 4W-3L-1D)",
+      "⚽ Almaden FC Almaden FC Mercury B16 Black moved from position 3 to 5",
+      "⚽ Almaden FC Almaden FC Mercury B16 Black record updated: 5W-4L-1D (was 5W-3L-1D)",
+      "⚽ Score updated for match 2309: Real Salinas Real Salinas 2016B White 3 - 1 Almaden FC Almaden FC Mercury B16 Black",
+      "⚽ Match 2309 status: Completed",
+      "📊 Opponent record updated for Real Salinas Real Salinas 2016B White: 4-3-1 → 5-3-1",
+      "⚽ Score updated for Real Salinas Real Salinas 2016B White: no result → 1-3"
+    ]
+  },
+  {
+    "timestamp": "2026-06-09T08:12:54.804Z",
+    "changes": [
+      "New team added: El Camino FC Salinas ECFC 16/17B Pre-ECNL-1"
+    ]
   }
 ]

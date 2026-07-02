@@ -15,6 +15,8 @@ Two guides cover everything:
 
 ## Quick start
 
+**Prerequisites:** Node 20+ and npm.
+
 ```bash
 npm install
 cp .env.local.example .env.local   # add your API keys (see HANDOFF.md)
@@ -49,5 +51,5 @@ Editing results, adding logos, and the game schema are documented in **[NEW_SEAS
 ## More docs
 
 - `docs/GOTSPORT_SCRAPER.md` — how the scraper works and troubleshooting
-- `docs/MCP_DEPLOYMENT_GUIDE.md`, `docs/RENDER_DEPLOYMENT.md` — the optional MCP server
+- `docs/RENDER_DEPLOYMENT.md` — the optional MCP server
 - `API_DOCUMENTATION.md` — internal API routes

@@ -68,8 +68,8 @@
     "type": "league",
     "opponent": "Hollister Tremors Hollister Tremors 2016B Team A",
     "matchNumber": "2285",
-    "mercuryRecord": "4-3-1",
-    "opponentRecord": "1-7-0",
+    "mercuryRecord": "5-4-1",
+    "opponentRecord": "1-9-0",
     "opponentGoals": "",
     "mercuryRecentResults": [],
     "opponentRecentResults": [],
@@ -187,7 +187,7 @@
     "type": "league",
     "opponent": "Monterey Surf Soccer Club Monterey Surf B16 Academy I",
     "matchNumber": "2296",
-    "mercuryRecord": "4-3-1",
+    "mercuryRecord": "5-4-1",
     "opponentRecord": "5-4-1",
     "opponentGoals": "",
     "mercuryRecentResults": [],
@@ -268,8 +268,8 @@
     "type": "league",
     "opponent": "Monterey County Soccer-ECFC Salinas ECFC 16/17B Pre-ECNL-1",
     "matchNumber": "2301",
-    "mercuryRecord": "4-3-1",
-    "opponentRecord": "8-1-0",
+    "mercuryRecord": "5-4-1",
+    "opponentRecord": "9-1-0",
     "opponentGoals": "",
     "mercuryRecentResults": [],
     "opponentRecentResults": [],
@@ -390,7 +390,7 @@
     "type": "league",
     "opponent": "Pajaro Valley Youth Soccer Club PV United 17B",
     "matchNumber": "2307",
-    "mercuryRecord": "4-3-1",
+    "mercuryRecord": "5-4-1",
     "opponentRecord": "10-0-0",
     "opponentGoals": "",
     "mercuryRecentResults": [],
@@ -510,8 +510,8 @@
     "type": "league",
     "opponent": "Santa Cruz United Football Club 2016B Blue",
     "matchNumber": "2318",
-    "mercuryRecord": "4-3-1",
-    "opponentRecord": "2-6-0",
+    "mercuryRecord": "5-4-1",
+    "opponentRecord": "2-7-0",
     "opponentGoals": "",
     "mercuryRecentResults": [],
     "opponentRecentResults": [],
@@ -631,7 +631,7 @@
     "type": "league",
     "opponent": "Santa Cruz City Soccer Club SANTA CRUZ SHARKS 16 WHITE",
     "matchNumber": "2319",
-    "mercuryRecord": "4-3-1",
+    "mercuryRecord": "5-4-1",
     "opponentRecord": "3-6-1",
     "opponentGoals": "",
     "mercuryRecentResults": [],
@@ -749,7 +749,7 @@
     "type": "league",
     "opponent": "Hollister Tremors Hollister Tremors",
     "matchNumber": "2328",
-    "mercuryRecord": "4-3-1",
+    "mercuryRecord": "5-4-1",
     "opponentRecord": "3-5-2",
     "opponentGoals": "",
     "mercuryRecentResults": [],
@@ -834,8 +834,8 @@
     "type": "league",
     "opponent": "OV Toros FC 2016B Black",
     "matchNumber": "2335",
-    "mercuryRecord": "4-3-1",
-    "opponentRecord": "3-4-1",
+    "mercuryRecord": "5-4-1",
+    "opponentRecord": "4-4-1",
     "opponentGoals": "",
     "mercuryRecentResults": [],
     "opponentRecentResults": [],
@@ -937,8 +937,8 @@
     "type": "league",
     "opponent": "Audax Soccer Club Audax 2016B Orange",
     "matchNumber": "2292",
-    "mercuryRecord": "4-3-1",
-    "opponentRecord": "2-5-1",
+    "mercuryRecord": "5-4-1",
+    "opponentRecord": "2-6-1",
     "opponentGoals": "",
     "mercuryRecentResults": [],
     "opponentRecentResults": [],
@@ -984,14 +984,16 @@
           "minute": 1,
           "type": "goal",
           "team": "mercury",
-          "scorer": "Luca Salomao"
+          "scorer": "Luca Salomao",
+          "videoTimestamp": 644
         },
         {
           "minute": 11,
           "type": "goal",
           "team": "mercury",
           "scorer": "Matías Carrillo",
-          "assist": "Roshan Parimi"
+          "assist": "Roshan Parimi",
+          "videoTimestamp": 1315
         },
         {
           "minute": 12,
@@ -1007,14 +1009,16 @@
           "minute": 44,
           "type": "goal",
           "team": "mercury",
-          "scorer": "Kaden Tamura"
+          "scorer": "Kaden Tamura",
+          "videoTimestamp": 2637
         },
         {
           "minute": 46,
           "type": "goal",
           "team": "mercury",
           "scorer": "Roshan Parimi",
-          "assist": "Kaden Tamura"
+          "assist": "Kaden Tamura",
+          "videoTimestamp": 2712
         },
         {
           "minute": 50,
@@ -1030,7 +1034,7 @@
     "weatherUrl": null,
     "gotsportUrl": "https://system.gotsport.com/org_event/events/49370/schedules?team=3800359",
     "photoAlbumUrl": null,
-    "videoUrl": null
+    "videoUrl": "https://www.youtube.com/watch?v=FK8PrzpZDDE"
   },
   {
     "id": "game-019",
@@ -1039,8 +1043,8 @@
     "type": "league",
     "opponent": "Real Salinas Real Salinas 2016B White",
     "matchNumber": "2309",
-    "mercuryRecord": "4-3-1",
-    "opponentRecord": "3-3-1",
+    "mercuryRecord": "5-4-1",
+    "opponentRecord": "5-3-1",
     "opponentGoals": "",
     "mercuryRecentResults": [],
     "opponentRecentResults": [],
@@ -1054,7 +1058,55 @@
     "homeAway": "away",
     "jersey": "white",
     "socks": "white",
-    "result": null,
+    "result": {
+      "us": 1,
+      "them": 3,
+      "goalScorers": [
+        "Oliver Anderson (1)"
+      ],
+      "assists": [
+        "Arthur Yao (1)"
+      ],
+      "goalkeepers": [
+        {
+          "name": "Oliver Anderson",
+          "half": 1,
+          "goalsAllowed": 2,
+          "saves": 6
+        },
+        {
+          "name": "Oliver Sperling",
+          "half": 2,
+          "goalsAllowed": 1,
+          "saves": 4
+        }
+      ],
+      "timeline": [
+        {
+          "minute": 10,
+          "type": "goal",
+          "team": "opponent"
+        },
+        {
+          "minute": 25,
+          "type": "goal",
+          "team": "opponent"
+        },
+        {
+          "minute": 38,
+          "type": "goal",
+          "team": "mercury",
+          "scorer": "Oliver Anderson",
+          "assist": "Arthur Yao",
+          "videoTimestamp": 2644
+        },
+        {
+          "minute": 39,
+          "type": "goal",
+          "team": "opponent"
+        }
+      ]
+    },
     "teamLogos": {
       "home": "/images/logos/real-salinas.png",
       "away": "/images/logos/mercury-b16.png"
@@ -1062,6 +1114,6 @@
     "weatherUrl": null,
     "gotsportUrl": "https://system.gotsport.com/org_event/events/49370/schedules?team=3800359",
     "photoAlbumUrl": null,
-    "videoUrl": null
+    "videoUrl": "https://www.youtube.com/watch?v=VK8K78uAvGQ"
   }
 ]

@@ -4,9 +4,9 @@ on:
   push:
     branches: [main]
     paths:
-      - 'mercury-b16-app/data/**'
-      - 'mercury-b16-app/appsdk/**'
-      - 'mercury-b16-app/lib/**'
+      - 'data/**'
+      - 'appsdk/**'
+      - 'lib/**'
 
 jobs:
   deploy:
