@@ -13,7 +13,7 @@ import { readFileSync, writeFileSync, existsSync } from 'fs';
 import { join } from 'path';
 
 // GotSport IDs live in config/gotsport.json (single source of truth, updated each season).
-// See NEW_SEASON.md for how to find eventId / teamId / groupId in your schedule URL.
+// See docs/NEW_SEASON.md for how to find eventId / teamId / groupId in your schedule URL.
 const gotsport = JSON.parse(
   readFileSync(join(__dirname, '..', 'config', 'gotsport.json'), 'utf-8')
 ) as { eventId: string; teamId: string; groupId: string };

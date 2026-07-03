@@ -1,6 +1,8 @@
 # Handoff Guide
 
-This app was built and run by the previous manager. This guide walks a new owner through taking it over: getting your own API keys, claiming the deployments, and understanding what runs where. Once you've done this once, day-to-day work is just updating results and rolling seasons (see **[NEW_SEASON.md](NEW_SEASON.md)**).
+*Part of the Mercury B16 app docs — see the [README](README.md) for the full guide index.*
+
+This app was built and run by the previous manager. This guide walks a new owner through taking it over: getting your own API keys, claiming the deployments, and understanding what runs where. Once you've done this once, day-to-day work is just updating results and rolling seasons (see **[docs/NEW_SEASON.md](docs/NEW_SEASON.md)**).
 
 > The previous owner's API keys are **not** in this repo and have been revoked. You bring your own (all free tiers). Nothing here will work against someone else's account.
 
@@ -52,7 +54,7 @@ To turn it on for your repo:
 1. Go to the repo's **Actions** tab and enable workflows.
 2. **Settings → Actions → General → Workflow permissions** → select **Read and write permissions** (lets the bot commit data updates).
 
-It uses the built-in `GITHUB_TOKEN` — **no personal token to create**. To change the schedule, see [NEW_SEASON.md](NEW_SEASON.md#adjusting-the-cron).
+It uses the built-in `GITHUB_TOKEN` — **no personal token to create**. To change the schedule, see [docs/NEW_SEASON.md](docs/NEW_SEASON.md#adjusting-the-cron).
 
 ## Step 4 — (Optional) Claim the MCP server on Render
 
@@ -74,7 +76,7 @@ If the app loads with the current roster and season, you're set. Then:
 - [ ] Keys in `.env.local` (Step 1)
 - [ ] Vercel project + env vars (Step 2)
 - [ ] Actions enabled with write permission (Step 3)
-- [ ] Update the GotSport IDs when the next season starts → **[NEW_SEASON.md](NEW_SEASON.md)**
+- [ ] Update the GotSport IDs when the next season starts → **[docs/NEW_SEASON.md](docs/NEW_SEASON.md)**
 
 ---
 

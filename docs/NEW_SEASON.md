@@ -1,5 +1,7 @@
 # New Season Guide
 
+*Part of the Mercury B16 app docs — see the [README](../README.md) for the full guide index.*
+
 Each new season (Fall, Spring, …) the team plays in a **new GotSport event**, so the app needs to: archive the season that just ended, start a fresh schedule, and point the scraper at the new event. There's a script for the mechanical parts and two things only you can do (find the new GotSport IDs, decide the cron). Budget ~10 minutes.
 
 ---

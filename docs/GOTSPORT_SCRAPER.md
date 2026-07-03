@@ -1,5 +1,7 @@
 # GotSport Automated Scraper
 
+*Part of the Mercury B16 app docs — see the [README](../README.md) for the full guide index.*
+
 Automated weekly scraper for Almaden FC Mercury B16 Black team data from GotSport.
 
 ## Overview

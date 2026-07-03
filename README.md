@@ -1,17 +1,14 @@
 # Mercury B16 Team App
 
-A team app for a youth soccer team: schedule, live-calculated standings, game results with goal/assist/keeper stats and minute-by-minute timelines, season archives, photo albums, tournament views, and an AI "Ask Mercury" assistant. Built as a installable PWA.
+A team app for a youth soccer team: schedule, live-calculated standings, game results with goal/assist/keeper stats and minute-by-minute timelines, season archives, photo albums, and tournament views. It's an installable PWA with an AI "Ask Mercury" assistant built in, and it can also expose team data to Claude or ChatGPT over MCP.
 
-**Stack:** Next.js 16 · React 19 · Tailwind 4 · deployed on Vercel. Optional MCP server (Render) exposes team data to Claude. A weekly GitHub Actions job scrapes schedule/standings from GotSport.
+**Stack:** Next.js 16 · React 19 · Tailwind 4 · deployed on Vercel. Optional MCP server (Render) exposes team data to Claude/ChatGPT. A weekly GitHub Actions job scrapes schedule/standings from GotSport.
 
 ---
 
-## 📖 If you're taking this over
+## 📖 Taking over this app?
 
-Two guides cover everything:
-
-1. **[HANDOFF.md](HANDOFF.md)** — one-time setup: get your own API keys, claim the Vercel/Render deploys, enable the scraper. **Start here.**
-2. **[NEW_SEASON.md](NEW_SEASON.md)** — each season: roll into a new Fall/Spring season (`npm run new-season`), find your new GotSport IDs, and update results/stats.
+Start with **[HANDOFF.md](HANDOFF.md)** — it walks a new owner through getting your own API keys, claiming the deployments, and understanding what runs where.
 
 ## Quick start
 
@@ -23,19 +20,32 @@ cp .env.local.example .env.local   # add your API keys (see HANDOFF.md)
 npm run dev                         # http://localhost:3000
 ```
 
-## Common commands
+## Find the right guide
 
-| Command | What it does |
+| You want to... | Read |
 |---|---|
-| `npm run dev` | Run the app locally |
-| `npm run build` / `npm run start` | Production build / serve |
-| `npm run scrape` | Pull schedule + standings from GotSport into `data/games.json` |
-| `npm run new-season` | Roll the app into a new season (see [NEW_SEASON.md](NEW_SEASON.md)) |
-| `npm run appsdk:dev` | Run the MCP server locally (optional) |
+| Record a game result or update stats | [docs/NEW_SEASON.md → Updating results & stats](docs/NEW_SEASON.md#updating-results--stats-during-the-season) |
+| Start a new season | [docs/NEW_SEASON.md](docs/NEW_SEASON.md) |
+| Take over ownership, deploys, or keys | [HANDOFF.md](HANDOFF.md) |
+| Deploy or fix the MCP server | [docs/RENDER_DEPLOYMENT.md](docs/RENDER_DEPLOYMENT.md) + [appsdk/README.md](appsdk/README.md) |
+| Fix a broken scraper | [docs/GOTSPORT_SCRAPER.md](docs/GOTSPORT_SCRAPER.md) |
+| Use the JSON API | [docs/API.md](docs/API.md) |
 
-## How data works
+## Repository map
 
-All team data is plain JSON in `data/` — no database.
+```
+app/                    Next.js pages (schedule, game detail, stats, photos, season, tournament, API routes)
+components/             React components (GameCard, ScheduleTabs, RulesChat, etc.)
+lib/                    Shared logic: stats calculations, season/tournament registration, utils
+data/                   The team's actual data — see below
+config/gotsport.json    GotSport event/team/group IDs (single source of truth)
+scripts/                Scraper scripts, season rollover script, image generators
+appsdk/                 MCP server source (exposes team data to Claude/ChatGPT) — see appsdk/README.md
+.github/workflows/      CI jobs — see below
+docs/                   All other guides: new season, JSON API, MCP deployment, scraper
+```
+
+### `data/` — the files you'll actually edit
 
 | File | Holds |
 |---|---|
@@ -43,13 +53,32 @@ All team data is plain JSON in `data/` — no database.
 | `data/seasons/<id>.json` | Archived past seasons |
 | `data/roster.json` | Player roster |
 | `data/team-info.json` | Team name, colors, GotSport links |
-| `config/gotsport.json` | GotSport event/team/group IDs (single source of truth) |
-| `lib/seasons.js` | Registers which seasons appear as tabs |
+| `data/tournaments/` | Tournament-specific data |
 
-Editing results, adding logos, and the game schema are documented in **[NEW_SEASON.md → Updating results & stats](NEW_SEASON.md#updating-results--stats-during-the-season)**.
+### `.github/workflows/`
 
-## More docs
+| Workflow | Trigger |
+|---|---|
+| `scrape-gotsport.yml` | Weekly cron (Tuesdays 7 AM UTC) + manual — pulls schedule/standings from GotSport |
+| `scrape-tournament.yml` | One-off crons hardcoded to a specific tournament's game times + manual |
+| `deploy-mcp.yml` | On push to `main` when `data/`, `appsdk/`, or `lib/` change — triggers the Render deploy hook for the MCP server |
 
-- `docs/GOTSPORT_SCRAPER.md` — how the scraper works and troubleshooting
-- `docs/RENDER_DEPLOYMENT.md` — the optional MCP server
-- `API_DOCUMENTATION.md` — internal API routes
+## How data flows
+
+The weekly GitHub Actions scraper (`scrape-gotsport.yml`) pulls the latest schedule and standings from GotSport and commits changes to `data/*.json`. That commit triggers a Vercel redeploy of the web app automatically. If `data/`, `appsdk/`, or `lib/` changed, `deploy-mcp.yml` also fires and redeploys the MCP server on Render. Goal scorers, assists, and other detail the scraper can't get are added by hand directly to `data/games.json` (see [docs/NEW_SEASON.md → Updating results & stats](docs/NEW_SEASON.md#updating-results--stats-during-the-season)).
+
+## Common commands
+
+| Command | What it does |
+|---|---|
+| `npm run dev` | Run the app locally |
+| `npm run build` / `npm run start` | Production build / serve |
+| `npm run scrape` | Pull schedule + standings from GotSport into `data/games.json` |
+| `npm run scrape:tournament` | Pull live tournament data into `data/tournament.json` |
+| `npm run new-season` | Roll the app into a new season (see [docs/NEW_SEASON.md](docs/NEW_SEASON.md)) |
+| `npm run appsdk:dev` | Run the MCP server locally (optional) |
+| `npm run lint` | Run ESLint |
+
+## How data works
+
+All team data is plain JSON in `data/` — no database. `lib/seasons.js` registers which seasons appear as tabs, and `lib/stats-calc.js` derives standings and player stats from completed games — you never edit those by hand.

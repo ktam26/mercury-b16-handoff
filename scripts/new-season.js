@@ -9,7 +9,7 @@
  *   4. Updates config/gotsport.json (event/team/group IDs) for the new GotSport site
  *   5. Refreshes the GotSport links in data/team-info.json
  *
- * What it does NOT do (human-judgment steps — see NEW_SEASON.md):
+ * What it does NOT do (human-judgment steps — see docs/NEW_SEASON.md):
  *   - Find your new GotSport IDs (you paste them in when prompted)
  *   - Change the cron schedule in .github/workflows/scrape-gotsport.yml
  *   - Run the first scrape / commit (it prints the commands)
@@ -153,7 +153,7 @@ function applyRollover(opts) {
   } catch {}
   const newCfg = {
     _comment: existing._comment ||
-      'Single source of truth for GotSport IDs. Update each season or run `npm run new-season`. See NEW_SEASON.md.',
+      'Single source of truth for GotSport IDs. Update each season or run `npm run new-season`. See docs/NEW_SEASON.md.',
     eventId: opts.eventId,
     teamId: opts.teamId,
     groupId: opts.groupId,
@@ -204,7 +204,7 @@ async function promptAndRun() {
     const label = await ask('Short label (tab text)', derived.label);
     const fullLabel = await ask('Full label', derived.fullLabel);
 
-    console.log('\nGotSport IDs for the NEW season (see NEW_SEASON.md to find these in your schedule URL).');
+    console.log('\nGotSport IDs for the NEW season (see docs/NEW_SEASON.md to find these in your schedule URL).');
     console.log('Press Enter to keep the current value if it has not changed.');
     let cfg = {};
     try {

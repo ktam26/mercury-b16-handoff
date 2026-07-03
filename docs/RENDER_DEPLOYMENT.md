@@ -1,5 +1,7 @@
 # Render Deployment Guide - MCP Server
 
+*Part of the Mercury B16 app docs — see the [README](../README.md) for the full guide index.*
+
 **Simple, Git-based deployment for the Almaden Mercury B16 MCP Server**
 
 ## Why Render?

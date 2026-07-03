@@ -1,5 +1,7 @@
 # Mercury B16 Team App - API Documentation
 
+*Part of the Mercury B16 app docs — see the [README](../README.md) for the full guide index.*
+
 ## Overview
 
 This API provides programmatic access to team data for AI agents, scrapers, and integrations. All endpoints return JSON and are designed for easy machine-readable access.
